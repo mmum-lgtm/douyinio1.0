@@ -1,0 +1,100 @@
+---
+// src/layouts/Layout.astro
+// Updated version: Complete & correct Open Graph tags → Ahrefs warning disappears
+import '../layouts/index.css';
+
+import Navbar from '../components/navbar/navbar.astro';
+import Footer from '../components/footer.astro';
+import ThemeSelector from '../components/themeselector.astro';
+import LanguageSelector from '../components/languageselector.astro';
+
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
+const lang = getLangFromUrl(safeUrl);
+
+let t;
+try {
+  t = useTranslations(lang);
+} catch (e) {
+  console.warn('i18n init failed:', e);
+  t = (key: string) => key;
+}
+
+// Props with safe fallbacks
+const {
+  title = t('site.title') ?? 'TikTokio - Free TikTok Video Downloader Online No Watermark',
+  description = t('site.description') ?? 'Download TikTok videos in HD instantly 100% free, no app, no registration!',
+  keywords = t('site.keywords') ?? 'tiktok downloader, video downloader, no watermark, download tiktok',
+  // You can override per page if needed, otherwise defaults to the big OG image
+  image = 'meta/opengraph.webp', // ← recommended: put it in public/meta/ so it’s served from root
+  ogType = 'website',
+  variant = 'default',
+} = Astro.props;
+
+// ─── Build absolute URLs safely ──────────────────────────────────────────────
+const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+const canonicalUrl = Astro.url.href;
+const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`; // removes leading slash if any
+---
+
+<!doctype html>
+<html lang={lang} class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="ahrefs-site-verification" content="0d2143a2ca098637c66936a08ea45310469848c903125248521f18dff3b33c68">
+
+    <!-- Basic SEO -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+
+    <!-- Canonical -->
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph / Facebook – NOW COMPLETE -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonicalUrl} />                <!-- CRITICAL -->
+    <meta property="og:site_name" content="TikTokio" />              <!-- Recommended -->
+    <meta property="og:locale" content={lang === 'en' ? 'en_US' : `${lang}_${lang.toUpperCase()}`} />
+    
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:alt" content={title} />
+    <meta property="og:image:width" content="1200" />                 <!-- Use real dimensions -->
+    <meta property="og:image:height" content="630" />                 <!-- 1.91:1 ratio (Facebook ideal) -->
+    <!-- Optional but nice for some platforms -->
+    <meta property="og:image:type" content="image/webp" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/ico" href="/fav.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.webp" />
+
+	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=693b7cfd7d1fcb1f4b611473&product=sop' async='async'></script>
+  </head>
+
+  <body class="antialiased">
+    <Navbar variant={variant} lang={lang} />
+
+    <main class="min-h-[calc(100vh-200px)]">
+      <slot name="hero" />
+      <slot name="features" />
+      <slot />
+    </main>
+
+    <Footer lang={lang} />
+
+    <!-- PWA service worker only in production -->
+		<script src="/src/pwa.ts"></script>
+
+  </body>
+</html>

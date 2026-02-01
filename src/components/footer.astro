@@ -1,0 +1,250 @@
+---
+import LanguageSelector from "@components/languageselector.astro";
+import { menuitems } from "@components/navbar/navbar.astro";
+import ThemeSelector from "@components/themeselector.astro";
+import logo from "assets/logo.svg";
+
+// Add new built-in i18n imports
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { getRelativeLocaleUrl } from "astro:i18n";
+
+// Get current language and create translation function
+const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
+const lang = getLangFromUrl(safeUrl);
+const t = useTranslations(lang);
+
+// Helper function to create localized paths
+function localizePath(path: string) {
+	if (!path || (path && path.startsWith('http')) || path === '#') return path;
+	return getRelativeLocaleUrl(lang, path);
+}
+---
+
+<footer class="pb-12 pt-8 dark:bg-stone-950">
+	<div class="mx-auto max-w-6xl px-6 md:px-12 lg:px-6 xl:px-0">
+		<!-- DECOMMENT HERE IF YOU WANT YOUR LOGO IN THE FOOTER -->
+		<!-- <a href={localizePath("/")} aria-label="logo" class="group flex items-center justify-center space-x-2">
+			<Image class="inline-block" src={logo} alt="Astros" width={30} height={30} />
+			<span class="text-semibold duration-300 text-gray-400 group-hover:text-gray-900 dark:text-white dark:group-hover:text-gray-100">
+				sTikTokio
+			</span>
+		</a> -->
+		<ul role="list" class="flex flex-wrap items-center justify-center gap-4 py-4 text-gray-600 dark:text-white sm:gap-8">
+			<li role="listitem">
+				<a href={localizePath("/")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">Home</a>
+			</li>
+			<li role="listitem">
+				<a href={localizePath("/about")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">About Us</a>
+			</li>
+			<li role="listitem">
+				<a href={localizePath("/contact")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">Contact Us</a>
+			</li>
+			<li role="listitem">
+				<a href={localizePath("/privacy-policy")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">Privacy Policy</a>
+			</li>
+			</li>
+			<li role="listitem">
+				<a href={localizePath("/savetik-download-tiktok-video-without-watermark-free")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">SaveTik</a>
+			</li>
+			<li role="listitem">
+				<a href={localizePath("/musical-down-tiktok-downloader")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">Musically Down</a>
+			</li>
+			<li role="listitem">
+				<a href={localizePath("/savefrom-download-from-tiktok")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">SaveFrom</a>
+			</li>
+			{
+				menuitems.map(
+					(item) =>
+						item &&
+						item.path && (
+							<li role="listitem">
+								<a href={localizePath(item.path)} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">
+									{t(item.title)}
+								</a>
+							</li>
+						)
+				)
+			}
+		</ul>
+		
+		<!-- ============================================ -->
+		<!-- OPTIMIZED SCHEMA MARKUP FOR BETTER SERP -->
+		<!-- ============================================ -->
+		
+		<!-- 1. WebSite Schema (CRITICAL - Shows brand name in SERP) -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "TikTokio",
+			"alternateName": "TikTokio - Free TikTok Video Downloader Online No Watermark",
+			"url": "https://stiktokio.com",
+			"description": "TikTokio – #1 Free TikTok Video Downloader Online No Watermark. Download TikTok videos in HD instantly 100% free, no app, no registration!",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": {
+					"@type": "EntryPoint",
+					"urlTemplate": "https://stiktokio.com/?url={search_term_string}"
+				},
+				"query-input": "required name=search_term_string"
+			},
+			"inLanguage": "en-US"
+		}
+		</script>
+		
+		<!-- 2. Organization Schema -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "TikTokio",
+			"url": "https://stiktokio.com",
+			"logo": "https://stiktokio.com/apple-touch-icon-180x180.webp",
+			"image": "https://stiktokio.com/meta/opengraph.webp",
+			"description": "TikTokio – #1 Free TikTok Video Downloader Online No Watermark. Download TikTok videos in HD instantly 100% free, no app, no registration!",
+			"email": "contact@stiktokio.com",
+			"sameAs": [
+				"https://x.com/stiktokio"
+			],
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"contactType": "Customer Support",
+				"email": "contact@stiktokio.com"
+			}
+		}
+		</script>
+		
+		<!-- 3. WebApplication Schema -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebApplication",
+			"name": "TikTokio",
+			"alternateName": "TikTokio - TikTok Video Downloader",
+			"url": "https://stiktokio.com",
+			"image": "https://stiktokio.com/images/tiktokio-logo.webp",
+			"applicationCategory": "MultimediaApplication",
+			"applicationSubCategory": "Video Downloader",
+			"operatingSystem": "Web Browser, Windows, Linux, iOS, Android, macOS",
+			"browserRequirements": "Requires JavaScript. Requires HTML5.",
+			"featureList": [
+				"Download TikTok videos without watermark",
+				"Tiktok Video Downloader Online",
+				"TikTokio",
+				"Tiktok Downloader",
+				"Unlimited free downloads",
+				"Cross-platform compatibility"
+			],
+			"offers": {
+				"@type": "Offer",
+				"price": "0.00",
+				"priceCurrency": "USD"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.6",
+				"ratingCount": "8173",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+		</script>
+		
+		<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Is TikTokio really free to use?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! TikTokio is 100% free. You can download unlimited TikTok videos without watermark, no registration, no login and no hidden fees."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need to install any app or extension?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No installation required! TikTokio works directly in your browser on any device – phone, tablet, or computer. Just paste the TikTok link and download instantly."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will the downloaded videos have the TikTok watermark/logo?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Never. All videos and photos downloaded with TikTokio are completely watermark-free, giving you clean, high-quality MP4 files or images ready for reposting or editing."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is it safe and legal to download TikTok videos using TikTokio?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely safe – we don’t store your data or the videos you download. As for legality: downloading for personal use or backup is generally allowed, but always respect the original creator’s copyright and TikTok’s terms of service."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why does TikTokio download faster than other tools?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We use advanced servers located worldwide and direct high-speed connections to TikTok’s CDN, so you get your videos in HD or even 4K quality in seconds – no buffering, no waiting."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which devices and browsers does TikTokio support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "TikTokio works on every device and browser – iPhone (Safari/Chrome), Android, Windows, Mac, Linux, iPad and even smart TVs. Whether you are using Chrome, Firefox, Safari, Edge, Opera or Brave, just open TikTokio, paste the link and download instantly – no compatibility issues ever!"
+    }
+  }]
+}
+</script>
+		
+		
+		
+		<!-- Social Media Links -->
+		<div class="m-auto mt-4 flex w-max items-center justify-between space-x-4 text-gray-500 dark:text-white">
+			<a class="duration-300 hover:text-gray-900 dark:hover:text-gray-100" 
+			   href="https://x.com/tiktokio_cam" 
+			   title="Follow us on Twitter" 
+			   target="_blank" 
+			   rel="noopener noreferrer"
+			   aria-label="Follow TikTokio on Twitter">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="m-auto h-5 w-5" viewBox="0 0 16 16">
+					<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+				</svg>
+			</a>
+			<a class="duration-300 hover:text-gray-900 dark:hover:text-gray-100" 
+			   href="#" 
+			   title="Follow us on Facebook" 
+			   target="_blank" 
+			   rel="noopener noreferrer"
+			   aria-label="Follow TikTokio on Facebook">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="m-auto w-5" viewBox="0 0 16 16">
+					<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+				</svg>
+			</a>
+			<a class="duration-300 hover:text-gray-900 dark:hover:text-gray-100" 
+			   href="#" 
+			   title="Follow us on LinkedIn" 
+			   target="_blank" 
+			   rel="noopener noreferrer"
+			   aria-label="Follow TikTokio on LinkedIn">
+				<svg fill="currentColor" width="36px" height="36px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+					<g id="SVGRepo_iconCarrier">
+					<path d="M24.325 8.309s-2.655-.334-8.357-.334c-5.517 0-8.294.334-8.294.334A2.675 2.675 0 0 0 5 10.984v10.034a2.675 2.675 0 0 0 2.674 2.676s2.582.332 8.294.332c5.709 0 8.357-.332 8.357-.332A2.673 2.673 0 0 0 27 21.018V10.982a2.673 2.673 0 0 0-2.675-2.673zM13.061 19.975V12.03L20.195 16l-7.134 3.975z"></path>
+					</g>
+				</svg>
+			</a>
+		</div>
+		
+		<!-- Copyright -->
+		<div class="mt-4 text-center">
+			<span class="text-sm tracking-wide text-gray-500 dark:text-white">
+				Copyright © TikTokio 2025. All rights reserved
+			</span>
+		</div>
+	</div>
+</footer>
