@@ -1295,7 +1295,1421 @@ it: {
 // Blog section
 'blog.prev': 'Precedente',
 'blog.next': 'Successivo',
-}
+},
+
+ar: {
+  
+  // Main Site metadata
+	'site.title': 'TikTokio - أداة تحميل فيديوهات تيك توك مجانية بدون علامة مائية أونلاين',
+    'site.description': 'TikTokio – الأداة رقم 1 لتحميل فيديوهات تيك توك أونلاين مجاناً وبدون علامة مائية لعدد غير محدود من التحميلات. قم بتحميل فيديوهات تيك توك عبر الرابط بجودة HD.',
+	'site.keywords': 'TikTokio, أداة تحميل فيديوهات تيك توك أونلاين, تحميل فيديو تيك توك, تحميلات تيك توك غير محدودة, محمل تيك توك مجاني, حفظ فيديوهات تيك توك, محمل تيك توك أونلاين',
+
+	// TikTok Video Downloader Page metadata
+    'tvd.title': 'TikTokio – أداة تحميل فيديوهات تيك توك بدون علامة مائية مجانية بجودة HD',
+    'tvd.description': 'قم بتحميل فيديوهات تيك توك بدون علامة مائية باستخدام أداة تحميل تيك توك أونلاين بجودة Full HD عبر TikTokio. أسرع أداة تحميل تيك توك في ثوانٍ.',
+    'tvd.keywords': 'TikTokio, أداة تحميل فيديوهات تيك توك, تحميل فيديو تيك توك, محمل تيك توك مجاني, حفظ فيديوهات تيك توك, محمل تيك توك أونلاين',
+    
+	// TikTok Downloader Page metadata
+	'td.title': 'TikTokio TikTok Downloader – تحميل مجاني بجودة HD وبدون علامة مائية',
+    'td.description': 'أداة TikTokio لتحميل تيك توك تزيل العلامات المائية فوراً. قم بتحميل فيديوهات وأصوات تيك توك بجودة HD مجاناً على الهاتف أو الكمبيوتر. سريع، آمن، وبدون تطبيقات.',
+    'td.keywords': 'TikTokio, تحميل تيك توك بدون علامة مائية, حفظ فيديوهات تيك توك أونلاين, كيف أحمل فيديوهات تيك توك, أفضل أداة تحميل تيك توك, موقع تحميل تيك توك, تطبيق تحميل فيديو تيك توك, حافظ فيديوهات تيك توك مجاني, تحميل تيك توك MP4',
+    
+	// Download TikTok Video Page metadata
+	'dtv.title': 'TikTokio تحميل فيديو تيك توك بدون علامة مائية – مجاني وسريع بجودة HD',
+    'dtv.description': 'مع TikTokio قم بتحميل فيديو تيك توك بجودة Full HD بدون علامة مائية في ثوانٍ. أسرع أداة تحميل TikTokio مجانية مع تحميلات غير محدودة.',
+    'dtv.keywords': 'TikTokio, تحميل فيديوهات تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// Download Foto Tiktok Page metadata
+	'dft.title': 'TikTok Photo Downloader – تحميل صور السلايدشو بدون علامة مائية',
+    'dft.description': 'تحميل صور تيك توك. قم بتحميل سلايدشو وصور تيك توك بدون علامة مائية بجودة Full HD في ثوانٍ. مجاني، بدون تسجيل دخول، ويعمل على آيفون وأندرويد!',
+    'dft.keywords': 'تحميل صور تيك توك بدون علامة مائية, تحميل صور سلايدشو تيك توك, حفظ صور تيك توك بدون علامة مائية, أداة تحميل صور تيك توك 2025, تحميل كل الصور من منشور تيك توك',
+
+	// Musically Down Page metadata
+	'md.title': 'Musically Down - تحميل فيديوهات تيك توك بدون علامة مائية أونلاين',
+    'md.description': 'محمل فيديوهات تيك توك Musically Download! قم بتحميل فيديوهات تيك توك بالعلامة المائية أو بدونها أونلاين. احفظ فيديوهات تيك توك بجودة HD وMP3 من أي جهاز.',
+    'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
+
+	// Savefrom Download From Tiktok Page metadata
+	'savef.title': 'SaveFrom - تحميل فيديوهات تيك توك - Savefromnet Tiktok Downloader',
+    'savef.description': 'اكتشف أسرع أداة تحميل فيديوهات تيك توك من savefromnet. قم بتحميل أي فيديو تيك توك بجودة HD وبدون علامة مائية في ثوانٍ. ابدأ التحميل الآن!',
+    'savef.keywords': 'TikTokio, تحميل تيك توك, أداة تحميل تيك توك, تحميل فيديو من تيك توك, تحميل فيديوهات تيك توك بدون علامة مائية, تنزيل فيديو تيك توك',
+
+	// Savetik Downloader Page metadata
+	'savetik.title': 'SaveTik Downloader - حفظ فيديوهات تيك توك بدون علامة مائية مجاناً',
+    'savetik.description': 'SaveTik Downloader هو محمل فيديوهات تيك توك بدون علامة مائية. يمكنك حفظ فيديوهات تيك توك من أي جهاز.',
+    'savetik.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// Savett Page metadata
+	'savett.title': 'SaveTT - حفظ فيديوهات تيك توك بدون علامة مائية في ثوانٍ',
+    'savett.description': 'SaveTT هو أفضل طريقة لتحميل فيديوهات تيك توك أونلاين في ثوانٍ. استخدم SaveTT لحفظ فيديوهات تيك توك بجودة HD وبدون علامات مائية. سريع، مجاني ويعمل على جميع الأجهزة.',
+    'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok save, حفظ تيك توك, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// SnapTik Page metadata
+	'snaptik.title': 'SnapTik - TT Video Downloader تحميل فيديوهات تيك توك بدون علامة مائية',
+    'snaptik.description': 'SnapTik - قم بتحميل فيديوهات تيك توك فوراً باستخدام SnapTik. سناب تيك هو أداة تحميل فيديوهات تيك توك مجانية تتيح لك تحميل الفيديوهات.',
+    'snaptik.keywords': 'TikTokio, snaptik, تحميل فيديو تيك توك, تحميل تيك توك, محمل تيك توك, تحميل فيديو تيك توك بدون علامة مائية',
+
+	// SssTik Page metadata
+	'ssstik.title': 'SSSTik - TikTok Downloader تحميل فيديوهات تيك توك أونلاين.',
+    'ssstik.description': 'ssstiktok تتيح لك تحميل فيديوهات تيك توك فوراً. أسرع أداة تحميل تيك توك لحفظ فيديوهات TT بجودة عالية وتحويل تيك توك إلى MP4. احفظ الفيديوهات من تيك توك على جميع الأجهزة.',
+    'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
+
+	// SssTikTok Page metadata
+	'ssstiktok.title': 'SSSTikTok - محمل تيك توك بدون علامة مائية تحميل فيديو تيك توك أونلاين',
+    'ssstiktok.description': 'أداة SSSTikTok لتحميل فيديوهات تيك توك أونلاين هي خدمة مجانية لتحميل الفيديوهات بدون علامة مائية وبجودة عالية. تحويل تيك توك إلى فيديو Mp4.',
+    'ssstiktok.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// Tikmate Page metadata
+	'tikmate.title': 'Tikmate - تحميل فيديو تيك توك، محمل تيك توك MP4 مجاني',
+    'tikmate.description': 'Tikmate هو أداة تحميل تيك توك سريعة وسهلة، بدون علامة مائية وبجودة HD. Tikmate هو الأفضل لحفظ الفيديوهات بالعلامة المائية أو بدونها وبدون تسجيل دخول.',
+    'tikmate.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, tikmate أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// Tiksave Page metadata
+	'tiksave.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
+    'tiksave.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+    'tiksave.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// TikToksss Page metadata
+	'tiktoksss.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
+    'tiktoksss.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+    'tiktoksss.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// Tmate Page metadata
+	'tmate.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
+    'tmate.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+    'tmate.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+
+	// Ttdownloader Page metadata
+	'ttdownloader.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
+    'ttdownloader.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+    'ttdownloader.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
+ 
+    // Hero section
+    'main.hero.title': 'TikTokio - أداة تحميل فيديوهات تيك توك أونلاين',
+    'main.hero.subtitle': 'قم بتحميل فيديوهات تيك توك في ثوانٍ، أداة تيك توك إلى Mp4 مجانية أونلاين',
+
+	'tvd.hero.title': 'TikTokio - أسرع أداة تحميل فيديوهات تيك توك',
+    'tvd.hero.subtitle': 'تحميل فيديو تيك توك بدون علامة مائية - مجاناً وبسهولة',
+
+	'td.hero.title': 'TikTokio - محمل تيك توك',
+    'td.hero.subtitle': 'أداة تيك توك أونلاين لتحميل الفيديوهات بسرعة وبدون عناء',
+
+	'dtv.hero.title': 'TikTokio - تحميل فيديو تيك توك بدون علامة مائية',
+    'dtv.hero.subtitle': 'قم بتحميل فيديوهات تيك توك فوراً باستخدام أداة تحميل تيك توك السريعة والسهلة',
+
+	'dft.hero.title': 'TikTokio - تحميل صورة تيك توك المصغرة أونلاين',
+    'dft.hero.subtitle': 'تحميل صورة تيك توك المصغرة وصورة الغلاف - أداة تحميل صور تيك توك',
+
+	'md.hero.title': 'Musically Down – تحميل تيك توك بدون علامة مائية',
+    'md.hero.subtitle': 'قم بتحميل فيديوهات تيك توك المفضلة لديك باستخدام أداة Musically Down',
+
+	'savef.hero.title': 'SaveFrom - محمل فيديوهات تيك توك',
+    'savef.hero.subtitle': 'قم بتحميل فيديوهات تيك توك بجودة Full HD مع أداة SaveFrom سهلة الاستخدام',
+
+	'savetik.hero.title': 'Save Tiktok - تحميل فيديوهات تيك توك بدون علامة مائية أونلاين',
+    'savetik.hero.subtitle': 'تحميل فيديوهات تيك توك بدون علامة مائية!.. حفظ عدد غير محدود من التحميلات',
+
+	'ssstiktok.hero.title': 'SSSTikTok - أداة تحميل فيديوهات تيك توك المجانية أونلاين',
+    'ssstiktok.hero.subtitle': 'محمل تيك توك بدون علامة مائية! قم بتحميل أو حفظ فيديوهات تيك توك Mp4 وHD أونلاين',
+
+	'tikmate.hero.title': 'Tikmate - تحميل فيديوهات تيك توك بدون علامة مائية',
+    'tikmate.hero.subtitle': 'محمل تيك توك - تحميل وحفظ فيديوهات تيك توك بدون علامة مائية',
+
+	'tiksave.hero.title': 'TikSave - أداة تحميل فيديوهات تيك توك أونلاين',
+    'tiksave.hero.subtitle': 'احفظ فيديوهات تيك توك بسهولة أونلاين بدون علامات مائية باستخدام TikSave',
+
+	'tiktoksss.hero.title': 'TikTokSSS - أداة تحميل تيك توك المجانية أونلاين',
+    'tiktoksss.hero.subtitle': 'SSSTikTok لتحميل فيديوهات تيك توك بدون علامة مائية بجودة HD',
+
+	'tmate.hero.title': 'Tmate - محمل تيك توك بدون علامة مائية',
+    'tmate.hero.subtitle': 'أداة تحميل فيديوهات أونلاين لتيك توك - بدون علامة مائية - Tmate',
+
+	'ttdownloader.hero.title': 'TTDownloader - تحميل فيديو تيك توك بدون علامة مائية',
+    'ttdownloader.hero.subtitle': 'تحميل فيديو تيك توك بدون علامات مائية — جودة HD، صيغة MP4',
+
+
+	
+	// Header/Navigation
+    'header.blog_link': 'كيف أحفظ فيديو تيك توك؟',
+    'header.nav_1': 'محمل تيك توك',
+    'header.nav_2': 'تحميل فيديو تيك توك',
+    'header.nav_3': 'أداة تحميل فيديوهات تيك توك',
+	'header.nav_4': 'حفظ تيك توك',
+
+
+	// Main features section
+	'main.title': 'TikTokio', 
+	'main.h2': ' - تحميل فيديوهات تيك توك بدون علامة مائية مجاناً',
+	'main.hkf1': 'الميزات الرئيسية لـ',
+	'main.hkf2': 'لحفظ فيديوهات تيك توك بدون علامة مائية أونلاين',
+	'tiktokio.para1': 'TikTokio هو أداة شاملة ومجانية 100% لتحميل فيديوهات تيك توك. احفظ فيديو تيك توك بدون علامة مائية. <a href="/" class="font-semibold text-blue-800 hover:text-orange-600 underline">TikTokio</a>، كونه أداة عالية الأداء، يقدم تجربة سلسة عبر المتصفح ولا يتطلب تثبيت برامج أو تسجيل حساب. استمتع بتحميلات تيك توك مجانية وغير محدودة وبدون علامة مائية بجودة HD. TikTokio هو الأفضل على كل الأجهزة دون الحاجة لتثبيت أي تطبيق.',
+   	'pgfeatures.paraleft2': 'يمكن لـ TikTokio إجراء بحث وتحميل لمحتوى تيك توك المفضل لديك بدقة عالية (HD) وبدون أي شعار. سواء كنت تسميها أداة <a href="/savetik-download-tiktok-video-without-watermark-free" class="font-semibold text-blue-800 hover:text-orange-600 underline">حفظ فيديو تيك توك</a> أو اختصار TikTokio، فقد تم تصميمها للسرعة والأمان والبساطة.',
+	'main.popular_text': 'يساعدك TikTokio على تحميل الفيديوهات من تيك توك بدون علامة مائية بسرعة وسهولة. ما عليك سوى نسخ رابط الفيديو، ولصقه في مربع البحث واختيار صيغة التحميل، ثم احفظ فيديوهاتك المفضلة بصيغة MP4 عالية الجودة أو صوت (MP3) بدون علامة مائية.',
+    'main.feature_text': 'تتجاوز خدمات TikTokio المجانية لتحميل تيك توك مجرد تحميل ملفات MP4 عادية. هل تبحث عن أفضل طريقة لـ <a href="/musical-down-tiktok-downloader" class="font-semibold text-orange-600 underline">تحميل فيديو تيك توك</a>؟ استخدم TikTokio لحفظ فيديوهات تيك توك بجودة HD وبدون علامات مائية. سريع ومجاني ويعمل على جميع الأجهزة. جرب الأداة الأفضل اليوم!',
+	'why.h2': 'لماذا تستخدم TikTokio لاحتياجات حفظ تيك توك الخاصة بك؟',
+    'main.ftur': 'عندما يتعلق الأمر بحفظ فيديوهات تيك توك، يحتاج المستخدمون إلى الجودة والسرعة وسهولة الاستخدام. يبرز TikTokio كأفضل حل لحفظ تيك توك. ميزات TikTokio المجانية تتجاوز بكثير ملفات MP4 العادية.',
+	'main.ftur2': 'يساعد محمل صور تيك توك في حفظ سلايدشو الصور. يقوم TikTokio بالتقاط الصور الفردية من السلايدشو بالدقة الكاملة.',
+	
+	'main.popular_heading1': 'تحميل فيديو تيك توك بدون علامات مائية',
+    'main.heading1_text': 'باستخدام TikTokio - محمل فيديوهات تيك توك، كل فيديو تحمله يكون نظيفاً بنسبة 100%، بدون شعار تيك توك أو اسم المستخدم.',
+    'main.popular_heading2': 'لا يتطلب تسجيل:',
+    'main.heading2_text': 'لن تضطر أبداً لمشاركة بياناتك الشخصية أو إنشاء حساب. فقط الصق الرابط وابدأ التحميل.',
+    'main.popular_heading3': 'تحميلات بجودة HD',
+    'main.heading3_text': 'يقوم TikTokio بجلب أعلى دقة ممكنة توفرها خوادم تيك توك. نحن نحافظ على الدقة الأصلية للفيديو لتبدو تحميلاتك واضحة على أي شاشة.',
+    'main.popular_heading4': 'استخدام غير محدود:',
+    'main.heading4_text': 'لا توجد حدود يومية لعدد الفيديوهات التي يمكنك تحميلها.',
+    'main.popular_heading5': 'دعم MP4 وMP3',
+    'main.heading5_text': 'لا يمكنك تحميل الفيديو فحسب، بل يمكنك أيضاً استخراج صوت تيك توك بصيغة Mp3 فقط. مثالي لحفظ الأغاني والأصوات الرائجة.',
+    'main.popular_heading6': 'الخصوصية أولاً',
+    'main.heading6_text': 'لا يقوم TikTokio بتخزين سجل التحميلات أو سجلات الفيديوهات التي تقوم بتحميلها.',
+
+	'tvd.h2': 'كيف تعمل أداة تحميل فيديوهات تيك توك أونلاين',
+	'tvd.text': 'مرحباً بكم في TikTokio - محمل فيديوهات تيك توك أونلاين. قم بتحميل فيديوهات تيك توك بدون علامة مائية وبجودة HD في عالم ينتشر فيه المحتوى بسرعة البرق. توفر أداتنا المجانية كل ما تحتاجه لحفظ فيديوهات تيك توك. واحدة من أكبر مزايا TikTokio هي توافقه مع جميع الأجهزة. على عكس التطبيقات الأخرى، تعمل أداتنا عبر الويب على أي جهاز وأي متصفح. إليك كيفية التحميل:',
+	'tvd.how1': 'انسخ رابط فيديو تيك توك',
+	'tvd.how1text': 'افتح تطبيق تيك توك أو الموقع وانسخ رابط الفيديو الذي تريد تحميله.',
+	'tvd.how2': 'الصق رابط الفيديو',
+	'tvd.how2text': 'الصق الرابط في حقل الإدخال في موقعنا <a href="/download-tiktok-video/">https://tiktokio.cam]</a>.',
+	'tvd.how3': 'تحميل فيديو تيك توك',
+	'tvd.how3text': 'بعد المعالجة، اضغط على "Download" للحصول على الفيديو وحفظه على جهازك في ثوانٍ.',
+	
+
+	'dtv.th2': 'TikTokio - تحميل فيديوهات تيك توك بدون علامة مائية في ثوانٍ',
+	'dtv.text': 'يساعد TikTokio المستخدمين على <a href="/download-tiktok-video/">تحميل فيديوهات تيك توك</a> بأفضل جودة ممكنة، وخاصة بدون العلامة المائية المزعجة. تستخدم أداتنا الطريقة الأكثر موثوقية وشعبية لتحميل الفيديوهات بجودة عالية. TikTokio هو خيار مجاني تماماً ولا يحتاج لتثبيت أي شيء.',
+	'dtv.text1': 'يعتبر TikTokio الخيار الأكثر اتساقاً وسهولة في الوقت الحالي. يوفر فيديوهات HD بدون علامة مائية بشكل موثوق. العملية بسيطة: انسخ الرابط، الصقه، وحمل. يعمل عبر جميع الأجهزة دون إعلانات مزعجة.',
+
+	
+	'dtv.h2': 'كيفية تحميل فيديوهات تيك توك مجاناً بدون علامة مائية مع TikTokio',
+	'dtv.how2text': 'اكتشف كيف يتيح TikTokio للمستخدمين تحميل فيديوهات تيك توك بدون علامة مائية بجودة HD مجاناً. استخدم أدوات موثوقة لحفظ الفيديوهات بسهولة دون الحاجة لتطبيقات. سريع وآمن. إليك الدليل خطوة بخطوة:',
+	'dtv.how1': 'ابحث عن رابط الفيديو وانسخه',
+	'dtv.how1text': 'افتح تيك توك وابحث عن الفيديو (يجب أن يكون عاماً). اضغط على مشاركة (أيقونة السهم) ← نسخ الرابط',
+	'dtv.how2': 'قم بزيارة TikTokio',
+	'dtv.how2ntext': 'انتقل إلى <a href="/">TikTokio</a> باستخدام متصفحك المفضل (كروم، سفاري، فايرفوكس).',
+	
+	
+	'dtv.how3': 'الصق رابط الفيديو',
+	'dtv.how3paste': 'الصق الرابط في مربع الإدخال في TikTokio <a href="/download-tiktok-video/">https://tiktokio.cam]</a>.',
+	'dtv.how4': 'تحميل فيديو تيك توك',
+	'dtv.how4text': 'بعد المعالجة، سيقوم الموقع بجلب الفيديو. اضغط على <strong>"Download"</strong> لحفظ الفيديو في ثوانٍ.',
+	
+
+
+
+	
+	'main.down_button': 'جرب محمل فيديوهات تيك توك الآن',
+    'main.input_placeholder': 'أدخل بريدك الإلكتروني',
+    'main.button_text': 'اشترك',
+    'main.privacy': 'نحن نهتم بحماية بياناتك. اقرأ',
+    'main.privacy_link': 'سياسة الخصوصية.',
+
+	// Main How it Works Main
+	'how.works_h2': 'كيفية تحميل فيديو تيك توك:',
+	'how.works': 'تحميل فيديوهات تيك توك بدون علامة مائية مع <strong>TikTokio</strong> أسهل مما تتخيل. تحقق من الخطوات:',
+	'how.step1': 'انسخ رابط فيديو تيك توك',
+    'how.step1text': 'افتح تيك توك وانسخ رابط الفيديو عن طريق الضغط على <strong>"مشاركة"</strong> ثم <strong>"نسخ الرابط"</strong>.',
+	'how.step2': 'اللصق والمعالجة',
+    'how.step2text': 'افتح موقع TikTokio <a href="/" class="hover:text-white underline">[https://tiktokio.cam]</a> والصق الرابط في المربع واضغط <strong>"Download"</strong>.',
+	'how.step3': 'حفظ فيديو تيك توك',
+	'how.step3text': 'اختر خيار التحميل بدون علامة مائية واضغط <strong>"Download"</strong>.',
+
+	  // Main FAQ section
+    'faq.title_sec1': 'الأسئلة الشائعة حول',
+    'faq.title_sec2': 'محمل فيديوهات تيك توك',
+
+    'faq.faq_text': 'احصل على إجابات للأسئلة الأكثر شيوعاً حول أداة TikTokio.',
+    'faq.question1': 'هل يجب أن أدفع لاستخدام TikTokio؟',
+    'faq.answer1': 'لا، TikTokio مجاني تماماً. يمكنك تحميل أي عدد من الفيديوهات دون أي تكاليف، وبدون تسجيل أو تسجيل دخول.',
+    'faq.question2': 'كيف أحفظ فيديوهات تيك توك على آيفون؟',
+    'faq.answer2': 'يمكن لمستخدمي iOS استخدام TikTokio.cam عبر متصفح سفاري. ما عليك سوى لصق الرابط وحفظ الملف مباشرة في تطبيق "الملفات" أو مجلد "التحميلات".',
+    'faq.question3': 'هل يمكنني تحميل فيديوهات تيك توك خاصة؟',
+    'faq.answer3': 'لا، لأسباب تتعلق بالخصوصية والأمان، يمكنك فقط تحميل المحتوى العام الذي يشاركه المنشئ للجميع.',
+    'faq.question4': 'هل يعمل TikTokio مع سلايدشو تيك توك؟',
+    'faq.answer4': 'بالتأكيد. كأداة متخصصة، يتيح لك حفظ الصور بجودة عالية من أي سلايدشو عام.',
+    'faq.question5': 'هل TikTokio أسرع من الأدوات الأخرى؟',
+    'faq.answer5': 'نعم، بفضل الخوادم المتقدمة والاتصالات السريعة، يمكنك تحميل الفيديوهات بجودة HD في ثوانٍ دون انتظار.',
+    'faq.question6': 'هل يدعم TikTokio المتصفحات والأجهزة الحديثة؟',
+    'faq.answer6': 'نعم، يعمل TikTokio على جميع الأجهزة الحديثة مثل آيفون، أندرويد، ويندوز، ماك، وحتى أجهزة التلفزيون الذكية.',
+   
+	
+	// Musically Down Feature section
+	'md.h2': 'Musically Down', 
+	'md.h2_1': ' - أداة تحميل فيديوهات تيك توك أونلاين',
+    'md.text1': 'يقدم Musically Down حلاً بسيطاً لتحميل فيديوهات تيك توك بدون علامة مائية، أو حفظها بصيغة MP4. يعتبر <a href="/musical-down-tiktok-downloader" class="font-semibold text-pink-600 hover:text-pink-800 underline">Musicallydown</a> أداة مشهورة تدعم صيغاً متعددة، وأكثرها طلباً هو MP4 المتوافق مع جميع الأجهزة.',
+	'md.text2': 'يعتبر MusicallyDown أحد أكثر الأدوات موثوقية وسرعة عبر الويب، مما يتيح للمستخدمين الحصول على فيديوهات نظيفة وبدقة عالية.',
+	'md.featureh': 'ميزات TikTokio - MusicallyDown:', 
+	'md.feature1': 'القدرة على إزالة العلامة المائية تماماً، وهو أمر ضروري لمنشئي المحتوى الراغبين في أرشفة أعمالهم.',
+  	'md.feature2': 'يدعم دقات متعددة، مما يتيح لك حفظ الفيديوهات بجودة HD و Full HD.',
+	'md.feature3': 'الأمان هو أولويتنا؛ لا تحتاج لتحميل أي ملفات APK مشبوهة أو إضافات متصفح.',
+	'md.feature4': 'يتيح لك استخراج الصوت فقط بصيغة MP3، مثالي لحفظ النغمات والأصوات الرائجة.',
+	'md.feature5': 'تحميلات غير محدودة ومجانية تماماً دون الحاجة لدفع أي رسوم أو اشتراك.',
+	'md.feature6': 'واجهة بسيطة وسهلة الاستخدام تجعل عملية التحميل مباشرة وتتم في ثوانٍ.',
+	  
+	// How it Works Musically Down
+	'md.howh2': 'MusicallyDown - كيفية تحميل فيديوهات تيك توك بدون علامة مائية',
+	'md.how2text': 'البدء مع Musicallydown سهل للغاية. اتبع هذه الخطوات البسيطة:',
+	'md.find': 'انسخ رابط فيديو تيك توك',
+	'mdhow.step1': 'افتح تطبيق تيك توك، ابحث عن الفيديو، اضغط على <strong>"مشاركة"</strong> ثم اختر <strong>"نسخ الرابط."</strong>',
+	'md.paste': 'اللصق والمعالجة',
+	'mdhow.step2': 'انتقل إلى <a href="/musical-down-tiktok-downloader" class="font-semibold text-pink-600 hover:text-pink-800 underline">MusicalDown</a> عبر المتصفح، الصق الرابط واضغط على <strong>"Download"</strong>.',
+	'md.download': 'تحميل فيديو تيك توك',
+	'mdhow.step3': 'سيقوم النظام بمعالجة الفيديو وعرض خيارات التحميل؛ اختر ما يفضله وسيتم الحفظ في ثوانٍ.',
+
+	// FAQs Musically Down
+	'md.faqh': 'MusicallyDown',
+	'md.q1': 'هل من القانوني تحميل فيديوهات تيك توك بدون علامة مائية؟',
+	'md.ans1': 'التحميل للاستخدام الشخصي مقبول بشكل عام عبر <a href="/">TikTokio</a>، ولكن للاستخدام التجاري، يجب عليك الحصول على إذن من المنشئ الأصلي.',
+	'md.q2': 'هل يمكنني تحميل فيديوهات تيك توك خاصة؟',
+	'md.ans2': 'للأسف، MusicallyDown يعمل فقط مع الفيديوهات العامة.',
+	'md.q3': 'هل هناك حد لعدد الفيديوهات التي يمكنني تحميلها؟',
+	'md.ans3': 'لا توجد حدود يومية، الخدمة مجانية ومتاحة على مدار الساعة.',
+	'md.q4': 'هل يمكنني استخدامه على أندرويد؟',
+	'md.ans4': 'نعم، يعمل على جميع الأنظمة (أندرويد، آيفون، ويندوز، ماك) عبر المتصفح دون الحاجة لتطبيق.',
+	'md.q5': 'لماذا فشل تحميل الفيديو؟',
+	'md.ans5': 'قد يكون الفيديو "خاصاً" أو تم حذفه أو هناك قيود إقليمية. تأكد من أن الفيديو عام.',
+	'md.q6': 'ماذا لو لم يتم إزالة العلامة المائية؟',
+	'md.ans6': 'هذا نادر، ولكن جرب مسح ذاكرة التخزين المؤقت للمتصفح أو استخدام خيار بديل في الموقع.',
+	
+
+
+	 // SaveTik  Feature section
+	'st.h2': 'SaveTik', 
+	'st.h2_1': ' - أداة تحميل فيديوهات تيك توك أونلاين',
+	'st.text': 'تم تصميم SaveTik ليكون أسرع وأكفأ أداة لحفظ فيديوهات تيك توك بدون علامات مائية. يعمل على جميع الأجهزة دون الحاجة لتثبيت تطبيقات. قم بلصق الرابط لتحصل على MP4 أو MP3 فوراً. يوفر SaveTik فيديوهات نظيفة واحترافية.',
+    'st.text1': 'يعتبر SaveTik وجهة عالمية للمستخدمين الباحثين عن الجودة والسرعة دون تعقيدات التسجيل أو البرامج الإضافية.',
+	'st.text2': 'مع ميزة SaveTik في TikTokio، ستحصل على الجودة الأصلية للفيديو مع ضمان الإزالة الكاملة للشعارات.',
+	'st.text3': 'يوفر تجربة مبسطة: فيديو بدون علامة مائية، وتحميلات سريعة جداً.',
+	'st.text4': 'سواء كنت تستخدم آيفون أو أندرويد، يمكنك استخدام <a href="/savefrom-download-from-tiktok" >SaveFrom</a> لحفظ المحتوى مباشرة.',
+    'st.featureh': 'ميزات Save Tiktok:', 
+	'st.fth1': 'تحميل غير محدود', 
+	'st.feature1': 'حمل فيديوهات تيك توك بدون حدود مجاناً.',
+	'st.fth2': 'مجاني تماماً', 
+  	'st.feature2': 'أسرع أداة لتحميل الفيديوهات بسهولة.',
+	'st.fth3': 'بدون علامة مائية', 
+    'st.feature3': 'إزالة العلامة المائية أونلاين أثناء التحميل.',
+	'st.fth4': 'معالجة سريعة', 
+	'st.feature4': 'تحويل تيك توك إلى MP4 في خطوات قليلة.',
+	'st.fth5': 'جودة عالية', 
+	'st.feature5': 'حفظ الفيديوهات بأعلى جودة متوفرة (HD).',
+	'st.fth6': 'جميع الأجهزة', 
+	'st.feature6': 'يعمل على الكمبيوتر، أندرويد، وiOS.',
+	'st.fth7': 'سرعة البرق', 
+	'st.feature7': 'تقنيات متقدمة للتحميل الفوري.',
+	  
+	// How it Works SaveTik
+	'st.howh2': 'كيفية حفظ فيديوهات تيك توك في ثوانٍ بـ 3 خطوات سهلة',
+	'st.how2text': 'اتبع الخطوات التالية لتحميل الفيديو بجودة HD وبدون علامة مائية:',
+	'st.find': 'ابحث عن الرابط وانسخه',
+	'st.paste': 'الصق الرابط المنسوخ',
+	'st.download': 'حفظ محتوى تيك توك',
+	'st.save': 'احفظ واستمتع', 
+    'sthow.step1': 'انسخ رابط تيك توك:',
+	'sthow.step1text': 'افتح تيك توك، اضغط <strong>"مشاركة"</strong> ثم <strong>"نسخ الرابط."</strong>',
+	'sthow.step2': 'الصق الرابط في SaveTik:',
+    'sthow.step2text': 'انتقل إلى <a href="/savetik-download-tiktok-video-without-watermark-free" class="font-semibold text-green-600 hover:text-green-800 underline">SaveTik</a>، الصق الرابط واضغط <strong>"Download"</strong>.',
+	'sthow.step3': 'حفظ الفيديو بسهولة',
+	'sthow.step3text': 'اختر الصيغة المفضلة للحصول على ملف نظيف واحترافي.',
+    
+	
+	// FAQs SaveTik
+	'st.faqh': 'SaveTik',
+	'st.q1': 'هل استخدام SaveTik قانوني؟',
+	'st.ans1': 'نعم، للاستخدام الشخصي والأوفلاين. يرجى احترام حقوق الملكية دائماً.',
+	'st.q2': 'هل أحتاج لحساب تيك توك؟',
+	'st.ans2': 'لا! فقط الرابط العام للفيديو يكفي.',
+	'st.q3': 'أين تذهب الفيديوهات بعد حفظها؟',
+	'st.ans3': 'عادة في مجلد <strong>"التحميلات"</strong> أو "الاستوديو" حسب جهازك.',
+	'st.q4': 'هل يعمل مع صور تيك توك؟',
+	'st.ans4': 'نعم، هو محمل صور متفوق أيضاً.',
+	'st.q5': 'ما هو الفيديو بدون علامة مائية؟',
+	'st.ans5': 'هو فيديو لا يحتوي على شعار تيك توك أو اسم المستخدم العائم.',
+	'st.q6': 'لماذا لا أستطيع التحميل أحياناً؟',
+	'st.ans6': 'تأكد من صحة الرابط ومن استقرار اتصال الإنترنت.',
+	 
+
+
+
+ // Savefrom  Feature section
+	'sf.h2': 'SaveFrom', 
+	'sf.h2_1': ' - تحميل فيديوهات تيك توك - سريع وسهل',
+	'sf.text1': 'SaveFrom هو أحد أكثر الأدوات كفاءة لتحميل الفيديوهات بسرعة وسهولة.',
+	'sf.text2': 'يتيح لك اختيار الصيغة المناسبة لجهازك، مما يجعله حلاً ممتازاً للمشاهدة دون إنترنت.',
+	'sf.text3': 'خدمة مجانية 100% توفر جودة عالية دون الحاجة لدفع أي رسوم.',
+	'sf.featureh': 'الميزات الرئيسية لـ SaveFrom', 
+	'sf.feature1': 'تحميل فيديوهات بدون علامة مائية للحصول على ملفات نظيفة.',
+  	'sf.feature2': 'خيارات متعددة مثل MP4 واستخراج الصوت MP3 عبر <a href="/savefrom-download-from-tiktok" class="font-semibold text-lime-500 hover:text-lime-800 underline">SaveFrom</a>.',
+    'sf.feature3': 'معالجة فورية دون انتظار.',
+	'sf.feature4': 'لا حاجة لحساب أو تثبيت برامج.',
+	'sf.feature5': 'توافق كامل مع جميع المتصفحات والأنظمة.',
+	'sf.feature6': 'تحميلات غير محدودة ودعم للتحميل الجماعي قريباً.',
+	'sf.feature7': 'واجهة صديقة للمستخدم بتصميم بسيط ونظيف.',
+	  
+	// How it Works SaveTik
+  	'sf.howh1': 'تحميل فيديوهات تيك توك بدون علامة مائية مع SaveFrom',
+  	'sf.howh1text': 'استمتع بتجربة سلسة؛ نحن لا نخزن أي فيديوهات على خوادمنا لضمان أمانك.',
+
+	'sf.howh2': 'كيفية استخدام SaveFrom أونلاين',
+	'sf.how2text': 'حل سلس وسريع لحفظ المحتوى مباشرة على جهازك.',
+	'sf.find': 'ابحث وانسخ الرابط',
+	'sf.paste': 'الصق الرابط',
+	'sf.download': 'اختر وحمل',
+	'sf.save': 'حفظ الفيديو على الجهاز مباشرة', 
+
+	'sfhow.step1': 'افتح تيك توك، اضغط <strong>"مشاركة"</strong> ثم <strong>"نسخ الرابط."</strong>',
+	'sfhow.step2': 'قم بزيارة <a href="/savefrom-download-from-tiktok">SaveFrom</a>، الصق الرابط واضغط <strong>"Download."</strong>',
+	'sfhow.step3': 'اختر السيرفر ونوع الملف، ثم اضغط <strong>"Download."</strong>',
+	'sfhow.step4': 'احفظ الفيديو واستمتع به.',
+	
+	// FAQs SaveFrom
+	'sf.faq': 'تحميل الفيديوهات مع',
+	'sf.q1': 'هل يمكنني التحميل مع الصوت الأصلي؟',
+	'sf.ans1': 'نعم! يتم الحفظ مع الصوت الأصلي دون تعديل.',
+	'sf.q2': 'ما هي الصيغ المتوفرة؟',
+	'sf.ans2': 'يدعم MP4 و WEBM و 3GP حسب جهازك.',
+	'sf.q3': 'هل يمكنني التحميل من متصفح الموبايل؟',
+	'sf.ans3': 'بالتأكيد، عبر كروم أو سفاري دون الحاجة لتطبيقات.',
+	'sf.q4': 'هل ينتهك شروط تيك توك؟',
+	'sf.ans4': 'الأداة للاستخدام الشخصي فقط؛ نرجو احترام حقوق النشر.',
+	'sf.q5': 'هل أحتاج لتسجيل دخول؟',
+	'sf.ans5': 'لا، الخدمة مجهولة تماماً ولا تتطلب أي بيانات.',
+	'sf.q6': 'ما هي سرعة التحميل؟',
+	'sf.ans6': 'التحميل فوري ويعتمد فقط على سرعة إنترنت جهازك.',
+	 
+// SaveFrom End section
+
+
+
+	 // SaveTT  Feature section
+	'stt.h2': 'SaveTT', 
+	'stt.h2_1': ' - حفظ فيديوهات تيك توك بدون علامة مائية في ثوانٍ',
+	'stt.text1': 'SaveTT هو أداتك المجانية لحفظ الفيديوهات واستخدامها أوفلاين بجودة عالية.',
+	'stt.text2': 'مع TikTokio، يمكنك البحث عن SaveTT والحصول على فيديوهات HD بدون شعار.',
+	'stt.text3': 'يتيح التحميل بصيغ MP3 و MP4 لجميع الأجهزة.',
+	'stt.text4': 'الأداة الأفضل لحفظ الفيديوهات فوراً وبسهولة.',
+	'stt.featureh': 'ميزات SaveTT:', 
+	'stt.fth1': 'تحميل غير محدود', 
+	'stt.feature1': 'حمل بقدر ما تشاء مجاناً.',
+	'stt.fth2': 'مجاني وسهل', 
+  	'stt.feature2': 'أداة سريعة جداً.',
+	'stt.fth3': 'بدون علامة مائية', 
+    'stt.feature3': 'إزالة العلامات المائية تماماً.',
+	'stt.fth4': 'معالجة سريعة', 
+	'stt.feature4': 'تحميل MP4 و MP3.',
+	'stt.fth5': 'جودة HD', 
+	'stt.feature5': 'حفظ الفيديوهات بأعلى دقة.',
+	'stt.fth6': 'لكل الأجهزة', 
+	'stt.feature6': 'يعمل على الموبايل والكمبيوتر.',
+	'stt.fth7': 'تقنيات متطورة', 
+	'stt.feature7': 'سرعة استجابة عالية.',
+	  
+	// How it Works SaveTik
+	'stthow.h2': 'كيفية استخدام SaveTT', 
+	
+	'stt.how2text': 'اتبع هذا الدليل البسيط:',
+	'stt.copy': 'انسخ الرابط:',
+	'stt.find': 'من تيك توك، اختر مشاركة ثم نسخ الرابط.',
+	'stt.paste': 'الصق في SaveTT:',
+	'stt.pastetext': 'انتقل إلى <a href="/savett-tiktok-downloader-save-tiktok-videos">SaveTT</a> والصق الرابط.',
+	'stt.download': 'تحميل وحفظ:',
+	'stt.downloadtext': 'اضغط <strong>"Download"</strong> واختر الصيغة وسيتم الحفظ فوراً.',
+	'stt.save': 'احفظ واستمتع', 
+
+	'stthow.step1': 'انسخ الرابط من تطبيق تيك توك.',
+	'stthow.step2': 'الصق الرابط في أداة SaveTT.',
+	'stthow.step3': 'اختر سيرفر التحميل المفضل.',
+	'stthow.step4': 'استمتع بالفيديو بدون علامة مائية.',
+	
+	// FAQs SaveTik
+	'stt.faqh': 'SaveTT',
+	'stt.faq_text': 'إجابات حول أداة SaveTT.',
+	'stt.faqtext': 'نحن نركز على الجودة والسرعة وسهولة الاستخدام.',
+	'stt.q1': 'هل هو قانوني؟',
+	'stt.ans1': 'نعم للاستخدام الشخصي، مع ضرورة استئذان المنشئ عند إعادة النشر.',
+	'stt.q2': 'هل يعرف المنشئ أنني حملت الفيديو؟',
+	'stt.ans2': 'لا، التحميل يتم عبر خوادمنا وبشكل خاص تماماً.',
+	'stt.q3': 'هل يحمل الفيديوهات الخاصة؟',
+	'stt.ans3': 'لا، فقط الفيديوهات العامة.',
+	'stt.q4': 'هل الخدمة مدفوعة؟',
+	'stt.ans4': 'لا، هي مجانية بالكامل.',
+	'stt.q5': 'أين تحفظ الملفات؟',
+	'stt.ans5': 'في مجلد التحميلات الافتراضي لجهازك.',
+	'stt.q6': 'هل الاستخدام آمن؟',
+	'stt.ans6': 'نعم، لا نطلب تثبيت أي برامج، والعملية تتم على خوادم مؤمنة.',
+	 
+    // Savett End section
+
+
+	  
+    // Miscellaneous section
+    'mics.404_title': 'خطأ 404 الصفحة غير موجودة | TikTokio',
+    'mics.404_h2_text': 'خطأ',
+    'mics.404_h2_text2': '404 الصفحة غير موجودة',
+    'mics.404_line1': 'عذراً، لم نتمكن من العثور على هذه الصفحة.',
+    'mics.404_line2': 'لا تقلق، يمكنك العثور على الكثير من الأشياء الأخرى في صفحتنا الرئيسية.',
+    'mics.404_back': 'العودة للصفحة الرئيسية',
+    'mics.contact_title': 'اتصل بفريق دعم TikTokio',
+    'mics.contact_h1': 'احصل على إجابات لأسئلتك',
+    'mics.contact_h2': 'اتصل بنا',
+    'mics.contact_text': 'سواء كان لديك سؤال أو تحتاج لدعم أو ملاحظات، نحن هنا للاستماع إليك.',
+    'mics.contact_form_h': 'تواصل معنا',
+    'mics.contact_form_f1': 'اسمك',
+    'mics.contact_form_f2': 'بريدك الإلكتروني',
+    'mics.contact_form_f3': 'اكتب رسالتك...',
+    'mics.contact_submit': 'إرسال الرسالة',
+    'mics.blog': 'مدونة TikTokio - نصائح وحيل وأحدث التحديثات',
+    'mics.blog_h1': 'الدليل النهائي لتحميل فيديوهات تيك توك - مدونة TikTokio',
+    'mics.blog_desc': 'أتقن تحميل تيك توك مع مدونتنا! أدلة خطوة بخطوة، حيل رائجة، وتحميل HD مجاني 100%.',
+    'mics.back_blog': 'العودة للمدونة',
+    'mics.category_title1': 'ابحث عن جميع المقالات حول',
+    'mics.category_title2': 'في TikTokio',
+    'mics.category_desc': 'تصفح مجموعتنا الكاملة من المقالات والدروس المتعلقة بـ',
+    'mics.category_desc2': '. تعلم كيفية التحميل وإزالة العلامات المائية.',
+    'mics.tag_title1': 'ابحث عن جميع المنشورات حول',
+    'mics.tag_title2': 'في TikTokio',
+    'mics.tag_desc': 'تصفح مجموعتنا الكاملة المتعلقة بـ',
+    'mics.tag_desc2': '.',
+
+    // Blog section
+    'blog.prev': 'السابق',
+    'blog.next': 'التالي',
+  },
+
+  fr: {
+  
+  // Main Site metadata
+	'site.title': 'TikTokio - Téléchargeur Vidéo TikTok en Ligne Gratuit Sans Filigrane',
+    'site.description': 'TikTokio – Le meilleur téléchargeur de vidéos TikTok en ligne gratuit sans filigrane pour des téléchargements illimités. Téléchargez des vidéos TikTok via lien en HD.',
+	'site.keywords': 'TikTokio, téléchargeur vidéo TikTok en ligne, télécharger vidéo TikTok, téléchargements TikTok illimités, téléchargeur TikTok gratuit, enregistrer vidéos TikTok, TikTok downloader online',
+
+	// TikTok Video Downloader Page metadata
+    'tvd.title': 'TikTokio – Téléchargeur Vidéo TikTok Sans Filigrane Gratuit HD',
+    'tvd.description': 'Téléchargez des vidéos TikTok sans filigrane avec le téléchargeur TikTok en ligne en full HD via TikTokio. Le téléchargeur TikTok le plus rapide en quelques secondes.',
+    'tvd.keywords': 'TikTokio, téléchargeur vidéo TikTok, télécharger vidéo TikTok, téléchargeur TikTok gratuit, enregistrer vidéos TikTok, TikTok downloader online',
+    
+	// TikTok Downloader Page metadata
+	'td.title': 'TikTokio TikTok Downloader – Téléchargement HD Gratuit Sans Filigrane',
+    'td.description': 'TikTokio TikTok Downloader supprime instantanément les filigranes. Téléchargez des vidéos et sons TikTok en HD gratuitement sur mobile ou PC. Rapide, sûr, sans application.',
+    'td.keywords': 'TikTokio, téléchargeur TikTok sans filigrane, enregistrer vidéos TikTok en ligne, comment télécharger vidéos TikTok, meilleur outil de téléchargement TikTok, site web TikTok downloader, application téléchargement vidéo TikTok, sauvegarde vidéo TikTok gratuite, télécharger TikTok MP4',
+    
+	// Download TikTok Video Page metadata
+	'dtv.title': 'TikTokio Télécharger Vidéo TikTok Sans Filigrane – Gratuit HD Rapide',
+    'dtv.description': 'Avec TikTokio, téléchargez des vidéos TikTok en full HD sans filigrane en quelques secondes. Le téléchargeur TikTokio gratuit le plus rapide avec téléchargements illimités.',
+    'dtv.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// Download Foto Tiktok Page metadata
+	'dft.title': 'TikTok Photo Downloader – Télécharger Diaporamas Photos Sans Filigrane',
+    'dft.description': 'Télécharger Photo TikTok. Téléchargez des diaporamas et carrousels de photos TikTok sans filigrane en full HD en quelques secondes. Gratuit, sans inscription, fonctionne sur iPhone et Android !',
+    'dft.keywords': 'téléchargeur photo tiktok sans filigrane, télécharger images diaporama tiktok, enregistrer carrousel photo tiktok sans filigrane, tiktok photo downloader 2025, télécharger toutes les photos d’un post tiktok',
+
+	// Musically Down Page metadata
+	'md.title': 'Musically Down - Télécharger Vidéo TikTok Sans Filigrane En Ligne',
+    'md.description': 'Téléchargeur de vidéos TikTok Musically Down ! Téléchargez des vidéos TikTok avec ou sans filigrane en ligne. Enregistrez des vidéos TikTok en HD et MP3 depuis n’importe quel appareil.',
+    'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
+
+	// Savefrom Download From Tiktok Page metadata
+	'savef.title': 'SaveFrom - Téléchargements Vidéo TikTok - Savefromnet Tiktok Downloader',
+    'savef.description': 'Découvrez le téléchargeur vidéo TikTok le plus rapide par savefromnet. Téléchargez n’importe quelle vidéo TikTok en HD sans filigrane en quelques secondes. Commencez à télécharger maintenant !',
+    'savef.keywords': 'TikTokio, téléchargement vidéo tiktok, téléchargeur vidéo tiktok, télécharger vidéo tiktok, téléchargement vidéo tiktok sans filigrane, télécharger vidéo tiktok',
+
+	// Savetik Downloader Page metadata
+	'savetik.title': 'SaveTik Downloader - Enregistrer Vidéos TikTok Sans Filigrane Gratuit',
+    'savetik.description': 'SaveTik Downloader est un téléchargeur de vidéos Tiktok sans filigrane. Vous pouvez enregistrer des vidéos TikTok depuis n’importe quel appareil.',
+    'savetik.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// Savett Page metadata
+	'savett.title': 'SaveTT - Enregistrer Vidéos TikTok Sans Filigrane en Quelques Secondes',
+    'savett.description': 'SaveTT est le meilleur moyen de télécharger des vidéos TikTok en ligne en quelques secondes. Utilisez SaveTT pour enregistrer des vidéos tiktok en HD sans filigranes. Rapide, gratuit et compatible avec tous les appareils.',
+    'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok save, sauvegarde tik tok, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// SnapTik Page metadata
+	'snaptik.title': 'SnapTik - TT Video Downloader Télécharger Vidéos TikTok Sans Filigrane',
+    'snaptik.description': 'SnapTik - Téléchargez des vidéos TikTok instantanément avec SnapTik - Tik Videos Saver. SnapTik est un téléchargeur de vidéos TikTok gratuit qui vous permet de télécharger des vidéos TikTok.',
+    'snaptik.keywords': 'TikTokio, snaptik, télécharger vidéo tiktok, download tiktok, téléchargeur tiktok, télécharger vidéo tiktok sans filigrane',
+
+	// SssTik Page metadata
+	'ssstik.title': 'SSSTik - TikTok Downloader Télécharger des vidéos TikTok en ligne.',
+    'ssstik.description': 'ssstiktok vous permet de télécharger des vidéos tiktok instantanément. Le téléchargeur tiktok le plus rapide pour enregistrer des vidéos TT de haute qualité TikTok vers MP4. Enregistrez des vidéos TikTok sur tous types d’appareils.',
+    'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
+
+	// SssTikTok Page metadata
+	'ssstiktok.title': 'SSSTikTok - Téléchargeur TikTok Sans Filigrane Télécharger Vidéo TikTok En Ligne',
+    'ssstiktok.description': 'SSSTikTok téléchargeur vidéo TikTok en ligne est un service gratuit pour télécharger des vidéos TikTok sans filigrane en format haute qualité. Téléchargement vidéo TikTok vers Mp4.',
+    'ssstiktok.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// Tikmate Page metadata
+	'tikmate.title': 'Tikmate - Télécharger vidéo tiktok, Tiktok downloader MP4 gratuit',
+    'tikmate.description': 'Tikmate est un téléchargeur de vidéos TikTok rapide et facile, sans filigrane et en HD. Le téléchargeur Tikmate est le meilleur pour enregistrer des vidéos avec ou sans filigrane sans inscription.',
+    'tikmate.keywords': 'TikTokio, télécharger vidéo tiktok sans filigrane, téléchargeur tikmate en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// Tiksave Page metadata
+	'tiksave.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
+    'tiksave.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+    'tiksave.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// TikToksss Page metadata
+	'tiktoksss.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
+    'tiktoksss.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+    'tiktoksss.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// Tmate Page metadata
+	'tmate.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
+    'tmate.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+    'tmate.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+
+	// Ttdownloader Page metadata
+	'ttdownloader.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
+    'ttdownloader.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+    'ttdownloader.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
+ 
+    // Hero section
+    'main.hero.title': 'TikTokio - Téléchargeur Vidéo TikTok en Ligne',
+    'main.hero.subtitle': 'Téléchargez des vidéos TikTok en quelques secondes, outil TikTok vers Mp4 gratuit en ligne',
+
+	'tvd.hero.title': 'TikTokio - Le téléchargeur vidéo TikTok le plus rapide',
+    'tvd.hero.subtitle': 'Télécharger Vidéo TikTok sans filigrane - Gratuit et Facile',
+
+	'td.hero.title': 'TikTokio - TikTok Downloader',
+    'td.hero.subtitle': 'Téléchargeur TikTok en ligne pour télécharger des vidéos TikTok rapidement et sans tracas',
+
+	'dtv.hero.title': 'TikTokio - Télécharger Vidéo TikTok Sans Filigrane',
+    'dtv.hero.subtitle': 'Téléchargez des vidéos TikTok instantanément avec un téléchargeur TikTok rapide et facile',
+
+	'dft.hero.title': 'TikTokio - Télécharger Miniature TikTok En Ligne',
+    'dft.hero.subtitle': 'Téléchargez la miniature et la photo de couverture TikTok - TikTok Thumbnail Downloader',
+
+	'md.hero.title': 'Musically Down – Télécharger TikTok Sans Filigrane',
+    'md.hero.subtitle': 'Téléchargez vos vidéos TikTok préférées avec l’outil Musically Down TikTok Downloader',
+
+	'savef.hero.title': 'SaveFrom - Téléchargeur Vidéo TikTok',
+    'savef.hero.subtitle': 'Téléchargez des vidéos TikTok en qualité Full HD avec le téléchargeur facile de SaveFrom',
+
+	'savetik.hero.title': 'Save Tiktok - Télécharger Vidéos TikTok Sans Filigrane En Ligne',
+    'savetik.hero.subtitle': 'Télécharger vidéos Tiktok, Sans Filigrane !.. Enregistrez des téléchargements TikTok illimités',
+
+	'ssstiktok.hero.title': 'SSSTikTok - Téléchargeur Vidéo TikTok En Ligne Gratuit',
+    'ssstiktok.hero.subtitle': 'TikTok Downloader Sans filigrane ! Téléchargez ou enregistrez des vidéos TikTok Mp4 et HD en ligne',
+
+	'tikmate.hero.title': 'Tikmate - Télécharger Vidéos TikTok Sans Filigrane',
+    'tikmate.hero.subtitle': 'TikTok Downloader - Téléchargez et enregistrez des vidéos TikTok sans filigrane',
+
+	'tiksave.hero.title': 'TikSave - Téléchargeur Vidéo TikTok En Ligne',
+    'tiksave.hero.subtitle': 'Enregistrez facilement des vidéos TikTok en ligne sans filigrane avec le téléchargeur TikSave',
+
+	'tiktoksss.hero.title': 'TikTokSSS - Téléchargeur TikTok En Ligne Gratuit',
+    'tiktoksss.hero.subtitle': 'SSSTikTok télécharger vidéos TikTok sans filigrane en qualité HD',
+
+	'tmate.hero.title': 'Tmate - Téléchargeur TikTok sans Filigrane',
+    'tmate.hero.subtitle': 'Téléchargeur vidéo en ligne pour TikTok - Sans filigrane - TMate',
+
+	'ttdownloader.hero.title': 'TTDownloader - Téléchargement Vidéo TikTok Sans Filigrane',
+    'ttdownloader.hero.subtitle': 'Télécharger vidéo TikTok sans filigrane — Qualité HD, format MP4',
+
+	// Header/Navigation
+    'header.blog_link': 'Comment enregistrer une vidéo TikTok ?',
+    'header.nav_1': 'TikTok Downloader',
+    'header.nav_2': 'Télécharger Vidéo TikTok',
+    'header.nav_3': 'TikTok Video Downloader',
+	'header.nav_4': 'Enregistrer TikTok',
+
+
+	// Main features section
+	'main.title': 'TikTokio', 
+	'main.h2': ' - Télécharger Vidéos TikTok Sans Filigrane Gratuitement',
+	'main.hkf1': 'Caractéristiques Clés de',
+	'main.hkf2': 'pour Enregistrer des Vidéos TikTok sans Filigrane en Ligne',
+	'tiktokio.para1': 'TikTokio est un téléchargeur de vidéos TikTok tout-en-un 100% gratuit. Enregistrez des vidéos TikTok sans filigrane. <a href="/" class="font-semibold text-blue-800 hover:text-orange-600 underline">TikTokio</a>, en tant que téléchargeur de vidéos TikTok haute performance, offre une expérience fluide basée sur le navigateur qui ne nécessite aucune installation de logiciel ou création de compte. Profitez de téléchargements TikTok gratuits, sans filigrane et illimités avec une qualité HD. TikTokio est idéal sur tous les appareils sans installer d’application.',
+   	'pgfeatures.paraleft2': 'TikTokio peut effectuer une recherche TikTok Video Downloader et télécharger votre contenu TikTok préféré en haute définition (HD) sans aucune marque. Que vous l’appeliez un outil <a href="/savetik-download-tiktok-video-without-watermark-free" class="font-semibold text-blue-800 hover:text-orange-600 underline">Enregistrer Vidéo TikTok</a> ou raccourci TikTokio, il est conçu pour la vitesse, la sécurité et la simplicité.',
+	'main.popular_text': 'TikTokio vous aide à télécharger des vidéos de TikTok sans filigrane rapidement et facilement. Copiez simplement le lien de la vidéo TikTok, collez-le dans la zone de recherche et choisissez le format de téléchargement. Enregistrez vos vidéos TikTok préférées en MP4 haute qualité ou en audio (MP3) sans filigrane.',
+    'main.feature_text': 'La polyvalence des services gratuits de TikTokio va bien au-delà des fichiers standards TikTok vers MP4. Vous cherchez le meilleur moyen de <a href="/musical-down-tiktok-downloader" class="font-semibold text-orange-600 underline">Télécharger une Vidéo TikTok</a> ? Utilisez TikTokio pour enregistrer les vidéos tiktok en HD sans filigrane. Rapide, gratuit et fonctionne sur tous les appareils. Essayez l’outil ultime TikTok Video Downloader dès aujourd’hui !',
+	'why.h2': 'Pourquoi Utiliser TikTokio pour Vos Besoins TikTok ?',
+    'main.ftur': 'Lorsqu’il s’agit d’enregistrer une vidéo TikTok, les utilisateurs ont besoin de qualité, de vitesse et de simplicité. TikTokio s’impose comme la solution de référence. Le meilleur de TikTokio va bien au-delà des simples fichiers MP4.',
+	'main.ftur2': 'TikTok Image Downloader aide à enregistrer les diaporamas photos. TikTokio capture les images individuelles des diaporamas en pleine résolution.',
+	
+	'main.popular_heading1': 'Télécharger Vidéo TikTok sans Filigrane',
+    'main.heading1_text': 'En utilisant TikTokio, chaque vidéo TikTok que vous téléchargez est 100% propre, sans logo TikTok ni superposition de nom d’utilisateur.',
+    'main.popular_heading2': 'Aucune Inscription Requise :',
+    'main.heading2_text': 'Vous n’avez jamais à partager de données personnelles ou à créer un compte. Collez simplement le lien et téléchargez.',
+    'main.popular_heading3': 'Téléchargements Qualité HD',
+    'main.heading3_text': 'TikTokio récupère la plus haute résolution possible fournie par les serveurs de TikTok. Nous préservons la résolution originale de la vidéo.',
+    'main.popular_heading4': 'Utilisation Illimitée :',
+    'main.heading4_text': 'Il n’y a aucune limite quotidienne sur le nombre de vidéos TikTok que vous pouvez télécharger.',
+    'main.popular_heading5': 'Support MP4 & MP3',
+    'main.heading5_text': 'Vous pouvez télécharger la vidéo, mais aussi extraire uniquement l’audio TikTok Mp3. Parfait pour les chansons virales.',
+    'main.popular_heading6': 'Confidentialité d’Abord',
+    'main.heading6_text': 'TikTokio ne stocke pas d’historique ou de journaux des vidéos que vous téléchargez.',
+
+	'tvd.h2': 'Comment Fonctionne le Téléchargement de Vidéos TikTok en Ligne',
+	'tvd.text': 'Bienvenue sur TikTokio. Téléchargez des vidéos TikTok sans filigrane en qualité HD. Notre outil gratuit offre tout ce dont vous avez besoin. L’un des plus grands avantages de TikTokio est sa compatibilité universelle. Contrairement à d’autres applications, notre outil web fonctionne sur n’importe quel appareil avec n’importe quel navigateur. Voici comment faire :',
+	'tvd.how1': 'Copier le Lien de la Vidéo TikTok',
+	'tvd.how1text': 'Ouvrez l’application TikTok, TikTok Lite ou le site web et copiez le lien de la vidéo.',
+	'tvd.how2': 'Coller l’URL de la Vidéo TikTok',
+	'tvd.how2text': 'Collez le lien dans le champ d’entrée de notre téléchargeur <a href="/download-tiktok-video/">https://tiktokio.cam]</a>.',
+	'tvd.how3': 'Télécharger la Vidéo TikTok',
+	'tvd.how3text': 'Cliquez sur "Télécharger" pour obtenir votre vidéo et l’enregistrer sur votre appareil en quelques secondes.',
+	
+
+	'dtv.th2': 'TikTokio - Télécharger des Vidéos TikTok Sans Filigrane en Quelques Secondes',
+	'dtv.text': 'TikTokio aide les utilisateurs à <a href="/download-tiktok-video/">télécharger des vidéos TikTok</a> dans la meilleure qualité possible sans filigrane. C’est une option gratuite basée sur le web qui ne nécessite aucune installation.',
+	'dtv.text1': 'TikTokio est le choix le plus fiable et convivial actuellement. Il livre des vidéos HD sans filigrane de manière constante sur tous les appareils (téléphone, tablette, PC).',
+
+	
+	'dtv.h2': 'Comment télécharger des vidéos TikTok gratuitement sans filigrane avec TikTokio',
+	'dtv.how2text': 'Découvrez comment TikTokio permet de télécharger des vidéos sans filigrane en HD gratuitement. Pas besoin d’application. Rapide, sûr et efficace. Voici le guide étape par étape.',
+	'dtv.how1': 'Trouver et Copier l’URL de la Vidéo TikTok',
+	'dtv.how1text': 'Ouvrez TikTok et trouvez la vidéo (elle doit être publique). Appuyez sur Partager → Copier le lien.',
+	'dtv.how2': 'Visiter TikTokio',
+	'dtv.how2ntext': 'Allez sur <a href="/">TikTokio</a> via votre navigateur préféré (Chrome, Safari, Firefox ou Edge).',
+	
+	
+	'dtv.how3': 'Coller l’URL de la Vidéo',
+	'dtv.how3paste': 'Collez le lien dans la zone d’entrée de TikTokio <a href="/download-tiktok-video/">https://tiktokio.cam]</a>.',
+	'dtv.how4': 'Télécharger la Vidéo TikTok',
+	'dtv.how4text': 'Cliquez sur <strong>"Télécharger"</strong> pour enregistrer la vidéo sur votre appareil instantanément.',
+	
+
+
+
+	
+	'main.down_button': 'Essayer le Téléchargeur TikTok Maintenant',
+    'main.input_placeholder': 'Entrez votre email',
+    'main.button_text': 'S’abonner',
+    'main.privacy': 'Nous nous soucions de vos données. Lisez notre',
+    'main.privacy_link': 'Politique de Confidentialité.',
+
+	// Main How it Works Main
+	'how.works_h2': 'Comment Télécharger une Vidéo TikTok :',
+	'how.works': 'Télécharger des vidéos TikTok sans filigrane avec <strong>TikTokio</strong> est plus simple que vous ne le pensez :',
+	'how.step1': 'Copier le Lien TikTok',
+    'how.step1text': 'Appuyez sur <strong>"Partager"</strong> puis <strong>"Copier le lien"</strong> sur la vidéo TikTok.',
+	'how.step2': 'Coller et Traiter',
+    'how.step2text': 'Allez sur <a href="/" class="hover:text-white underline">[https://tiktokio.cam]</a>, collez le lien et cliquez sur <strong>"Télécharger"</strong>.',
+	'how.step3': 'Enregistrer la Vidéo',
+	'how.step3text': 'Sélectionnez l’option sans filigrane et enregistrez.',
+
+	  // Main FAQ section
+    'faq.title_sec1': 'FAQ sur le',
+    'faq.title_sec2': 'Téléchargeur Vidéo TikTok',
+
+    'faq.faq_text': 'Réponses aux questions courantes sur TikTokio.',
+    'faq.question1': 'Dois-je payer pour utiliser TikTokio ?',
+    'faq.answer1': 'Non, TikTokio est entièrement gratuit. Téléchargements illimités, sans frais ni inscription.',
+    'faq.question2': 'Comment enregistrer des vidéos TikTok sur iPhone ?',
+    'faq.answer2': 'Utilisez Safari pour accéder à TikTokio.cam. Collez le lien et enregistrez le fichier directement dans votre application "Fichiers".',
+    'faq.question3': 'Puis-je télécharger des vidéos TikTok privées ?',
+    'faq.answer3': 'Non, vous ne pouvez télécharger que du contenu défini comme "Public" par le créateur.',
+    'faq.question4': 'Est-ce que TikTokio fonctionne pour les diaporamas ?',
+    'faq.answer4': 'Absolument. Vous pouvez enregistrer les photos de haute qualité de n’importe quel diaporama public.',
+    'faq.question5': 'TikTokio est-il plus rapide que les autres outils ?',
+    'faq.answer5': 'Oui, nos serveurs haute vitesse permettent un téléchargement en HD en quelques secondes sans attente.',
+    'faq.question6': 'TikTokio supporte-t-il les navigateurs modernes ?',
+    'faq.answer6': 'Oui, il fonctionne sur iPhone, Android, Windows, Mac, iPad et même les Smart TV.',
+   
+	
+	// Musically Down Feature section
+	'md.h2': 'Musically Down', 
+	'md.h2_1': ' - Téléchargeur Vidéo TikTok en Ligne',
+    'md.text1': 'Musical Down offre une solution simple pour télécharger des vidéos TikTok sans filigrane. MusicallyDown est un outil web conçu spécifiquement pour TikTok, supportant le format MP4 compatible avec tous les appareils.',
+	'md.text2': 'C’est l’un des outils les plus fiables pour obtenir des vidéos en haute résolution sans logo.',
+	'md.featureh': 'Caractéristiques de TikTokio - MusicallyDown :', 
+	'md.feature1': 'Suppression totale du filigrane TikTok pour des fichiers propres.',
+  	'md.feature2': 'Support de plusieurs résolutions jusqu’au HD et Full HD.',
+	'md.feature3': 'Sécurité garantie : pas besoin de télécharger des APK ou des extensions.',
+	'md.feature4': 'Extraction audio MP3 de haute qualité.',
+	'md.feature5': 'Utilisation illimitée et gratuite, sans inscription.',
+	'md.feature6': 'Interface simple et rapide pour un téléchargement en un clic.',
+	  
+	// How it Works Musically Down
+	'md.howh2': 'MusicalDown - Comment télécharger sans filigrane',
+	'md.how2text': 'Le processus est identique et très simple sur tous les appareils :',
+	'md.find': 'Copier le lien TikTok',
+	'mdhow.step1': 'Sur TikTok, appuyez sur <strong>"Partager"</strong> puis <strong>"Copier le lien"</strong>.',
+	'md.paste': 'Coller et Traiter',
+	'mdhow.step2': 'Allez sur <a href="/musical-down-tiktok-downloader">MusicalDown</a>, collez le lien et cliquez sur <strong>"Télécharger"</strong>.',
+	'md.download': 'Télécharger la Vidéo',
+	'mdhow.step3': 'Le système récupère les données, choisissez votre option et enregistrez.',
+
+	// FAQs Musically Down
+	'md.faqh': 'MusicallyDown',
+	'md.q1': 'Est-ce légal ?',
+	'md.ans1': 'Le téléchargement pour usage personnel et hors ligne est généralement acceptable. Pour un usage commercial, demandez l’autorisation au créateur.',
+	'md.q2': 'Vidéos privées ?',
+	'md.ans2': 'Non, l’outil ne supporte que les vidéos publiques.',
+	'md.q3': 'Limites ?',
+	'md.ans3': 'Aucune limite quotidienne. Service gratuit 24/7.',
+	'md.q4': 'Sur Android ?',
+	'md.ans4': 'Oui, fonctionne sur tout navigateur sans application.',
+	'md.q5': 'Échec du téléchargement ?',
+	'md.ans5': 'Vérifiez si la vidéo est publique ou si elle n’a pas été supprimée.',
+	'md.q6': 'Filigrane toujours présent ?',
+	'md.ans6': 'Videz le cache de votre navigateur et réessayez.',
+	
+
+
+	 // SaveTik  Feature section
+	'st.h2': 'SaveTik', 
+	'st.h2_1': ' - Téléchargeur Vidéo TikTok en Ligne',
+	'st.text': 'SaveTik est conçu pour un téléchargement fluide et efficace. Il fonctionne sur mobile et PC sans application. Supprime le logo TikTok pour des vidéos propres.',
+    'st.text1': 'TikTokio - SaveTik est devenu la destination préférée pour sa performance et sa simplicité.',
+	'st.text2': 'Obtenez la qualité originale sans aucun logo grâce à nos serveurs optimisés.',
+	'st.text3': 'Une expérience utilisateur simplifiée : pas de logo, téléchargement rapide.',
+	'st.text4': 'Compatible iPhone, Android et PC via navigateur.',
+    'st.featureh': 'Caractéristiques de SaveTik :', 
+	'st.fth1': 'Téléchargements Illimités', 
+	'st.feature1': 'Téléchargez sans aucune limite gratuitement.',
+	'st.fth2': 'Gratuit', 
+  	'st.feature2': 'La solution la plus rapide pour vos besoins TikTok.',
+	'st.fth3': 'Sans Filigrane', 
+    'st.feature3': 'Supprime le logo TikTok pendant le traitement.',
+	'st.fth4': 'Traitement Rapide', 
+	'st.feature4': 'Convertissez TikTok en MP4 en quelques étapes.',
+	'st.fth5': 'Haute Qualité', 
+	'st.feature5': 'Enregistrez en HD gratuitement.',
+	'st.fth6': 'Tous Appareils', 
+	'st.feature6': 'Fonctionne sur PC, Android et iOS.',
+	'st.fth7': 'Vitesse Élevée', 
+	'st.feature7': 'Technologie avancée pour des résultats instantanés.',
+	  
+	// How it Works SaveTik
+	'st.howh2': 'Comment Enregistrer en 3 Étapes Faciles',
+	'st.how2text': 'SaveTik est la méthode la plus simple pour le format MP4 HD :',
+	'st.find': 'Copier le lien TikTok',
+	'st.paste': 'Coller le lien',
+	'st.download': 'Enregistrer le Contenu',
+	'st.save': 'Sauvegarder et Profiter', 
+    'sthow.step1': 'Copier l’URL :',
+	'sthow.step1text': 'Trouvez la vidéo, cliquez sur <strong>"Partager"</strong> puis <strong>"Copier le lien"</strong>.',
+	'sthow.step2': 'Coller sur SaveTik :',
+    'sthow.step2text': 'Allez sur le site, collez dans la barre et cliquez sur <strong>"Télécharger"</strong>.',
+	'sthow.step3': 'Sauvegarder Facilement',
+	'sthow.step3text': 'Choisissez "Sans filigrane" pour un fichier propre.',
+    
+	
+	// FAQs SaveTik
+	'st.faqh': 'SaveTik',
+	'st.q1': 'Est-ce légal ?',
+	'st.ans1': 'Oui pour un usage personnel. Respectez les droits d’auteur.',
+	'st.q2': 'Besoin d’un compte TikTok ?',
+	'st.ans2': 'Non, aucun compte requis.',
+	'st.q3': 'Où vont les fichiers ?',
+	'st.ans3': 'Dans votre dossier "Téléchargements" par défaut.',
+	'st.q4': 'Photos et diaporamas ?',
+	'st.ans4': 'Oui, supporte parfaitement les images TikTok.',
+	'st.q5': 'Qu’est-ce qu’une vidéo sans filigrane ?',
+	'st.ans5': 'Une vidéo sans logo TikTok ni nom d’utilisateur.',
+	'st.q6': 'Pourquoi l’échec ?',
+	'st.ans6': 'Mauvais lien ou connexion instable. Réessayez avec le lien public.',
+	 
+
+
+
+ // Savefrom  Feature section
+	'sf.h2': 'SaveFrom', 
+	'sf.h2_1': ' - Téléchargements Vidéo TikTok Rapides',
+	'sf.text1': 'SaveFrom est l’un des outils les plus efficaces pour enregistrer du contenu rapidement.',
+	'sf.text2': 'Choisissez votre format préféré pour une lecture hors ligne optimale.',
+	'sf.text3': 'C’est une solution gratuite qui permet de télécharger en plusieurs qualités.',
+	'sf.featureh': 'Caractéristiques Clés de SaveFrom', 
+	'sf.feature1': 'Téléchargement sans filigrane pour des fichiers de haute qualité.',
+  	'sf.feature2': 'Options MP4 et extraction MP3 avec <a href="/savefrom-download-from-tiktok">SaveFrom</a>.',
+    'sf.feature3': 'Traitement vidéo instantané sans file d’attente.',
+	'sf.feature4': '100% gratuit, pas d’installation de logiciel.',
+	'sf.feature5': 'Compatibilité multi-plateforme (Windows, Mac, Android, iOS).',
+	'sf.feature6': 'Téléchargements illimités sans limite quotidienne.',
+	'sf.feature7': 'Interface conviviale et design épuré.',
+	  
+	// How it Works SaveTik
+  	'sf.howh1': 'Télécharger sans filigrane avec SaveFrom',
+  	'sf.howh1text': 'Profitez d’un service qui ne stocke pas vos vidéos pour votre sécurité.',
+
+	'sf.howh2': 'Comment utiliser SaveFrom en ligne',
+	'sf.how2text': 'Une solution fluide pour sauvegarder directement sur votre appareil.',
+	'sf.find': 'Trouver et Copier le lien',
+	'sf.paste': 'Coller l’URL',
+	'sf.download': 'Cliquer sur Télécharger',
+	'sf.save': 'Le fichier s’enregistre directement', 
+
+	'sfhow.step1': 'Sur TikTok, cliquez sur l’icône <strong>"Partager"</strong> puis <strong>"Copier le lien"</strong>.',
+	'sfhow.step2': 'Allez sur <a href="/savefrom-download-from-tiktok">SaveFrom</a>, collez et cliquez.',
+	'sfhow.step3': 'Sélectionnez le serveur et cliquez sur <strong>"Télécharger"</strong>.',
+	'sfhow.step4': 'Enregistrez et profitez.',
+	
+	// FAQs SaveFrom
+	'sf.faq': 'Télécharger avec',
+	'sf.q1': 'Audio original ?',
+	'sf.ans1': 'Oui, SaveFrom préserve l’audio d’origine sans modification.',
+	'sf.q2': 'Formats supportés ?',
+	'sf.ans2': 'MP4 est le standard, mais d’autres peuvent être disponibles.',
+	'sf.q3': 'Navigateur mobile ?',
+	'sf.ans3': 'Oui, fonctionne parfaitement sur Chrome ou Safari mobile.',
+	'sf.q4': 'Conditions d’utilisation ?',
+	'sf.ans4': 'Respectez le droit d’auteur pour tout usage non personnel.',
+	'sf.q5': 'Compte requis ?',
+	'sf.ans5': 'Non, le service est anonyme et accessible à tous.',
+	'sf.q6': 'Vitesse ?',
+	'sf.ans6': 'Instantané, selon votre connexion internet.',
+	 
+// SaveFrom End section
+
+
+
+	 // SaveTT  Feature section
+	'stt.h2': 'SaveTT', 
+	'stt.h2_1': ' - Enregistrer sans Filigrane en Quelques Secondes',
+	'stt.text1': 'SaveTT est un outil 100% gratuit pour conserver vos vidéos en haute qualité.',
+	'stt.text2': 'Recherchez SaveTT sur TikTokio pour des résultats HD sans logo.',
+	'stt.text3': 'Disponible en formats .mp3 et .mp4 pour tous types d’appareils.',
+	'stt.text4': 'L’outil ultime pour une sauvegarde instantanée.',
+	'stt.featureh': 'Caractéristiques de SaveTT :', 
+	'stt.fth1': 'Illimité', 
+	'stt.feature1': 'Téléchargez autant que vous voulez sans frais.',
+	'stt.fth2': 'Gratuit', 
+  	'stt.feature2': 'Outil ultra-rapide et simple.',
+	'stt.fth3': 'Pas de filigrane', 
+    'stt.feature3': 'Suppression propre de tout marquage.',
+	'stt.fth4': 'MP4 et MP3', 
+	'stt.feature4': 'Convertissez facilement selon vos besoins.',
+	'stt.fth5': 'Qualité HD', 
+	'stt.feature5': 'Préserve la clarté originale de la vidéo.',
+	'stt.fth6': 'Tous Appareils', 
+	'stt.feature6': 'PC, Mac, Android et iPhone.',
+	'stt.fth7': 'Traitement Avancé', 
+	'stt.feature7': 'Technologie de pointe pour des téléchargements éclairs.',
+	  
+	// How it Works SaveTik
+	'stthow.h2': 'Comment utiliser SaveTT', 
+	
+	'stt.how2text': 'L’utilisation est directe et sans complications :',
+	'stt.copy': 'Copier le lien :',
+	'stt.find': 'Appuyez sur <strong>"Partager"</strong> puis <strong>"Copier le lien"</strong> sur TikTok.',
+	'stt.paste': 'Coller dans SaveTT :',
+	'stt.pastetext': 'Allez sur <a href="/savett-tiktok-downloader-save-tiktok-videos">SaveTT</a> et collez.',
+	'stt.download': 'Télécharger :',
+	'stt.downloadtext': 'Cliquez sur <strong>"Télécharger"</strong> et choisissez votre format.',
+	'stt.save': 'Profiter du contenu', 
+
+	'stthow.step1': 'Copiez le lien depuis l’application.',
+	'stthow.step2': 'Collez dans l’outil de suppression de filigrane.',
+	'stthow.step3': 'Sélectionnez votre serveur.',
+	'stthow.step4': 'Enregistrez sur votre appareil.',
+	
+	// FAQs SaveTik
+	'stt.faqh': 'SaveTT',
+	'stt.faq_text': 'Réponses sur SaveTT.',
+	'stt.faqtext': 'Vitesse, qualité et simplicité sont nos priorités.',
+	'stt.q1': 'Légal ?',
+	'stt.ans1': 'Usage personnel considéré comme fair-use.',
+	'stt.q2': 'Le créateur le sait-il ?',
+	'stt.ans2': 'Non, le téléchargement est totalement anonyme.',
+	'stt.q3': 'Vidéos privées ?',
+	'stt.ans3': 'Non, seulement les vidéos publiques.',
+	'stt.q4': 'Gratuit ?',
+	'stt.ans4': 'Oui, sans aucun coût caché.',
+	'stt.q5': 'Où sont stockés les fichiers ?',
+	'stt.ans5': 'Dans votre dossier de téléchargements habituel.',
+	'stt.q6': 'Sûr ?',
+	'stt.ans6': 'Oui, aucune installation requise, tout est géré sur nos serveurs.',
+	 
+    // Savett End section
+
+
+	  
+    // Miscellaneous section
+    'mics.404_title': 'Erreur 404 Page Non Trouvée | TikTokio',
+    'mics.404_h2_text': 'Erreur',
+    'mics.404_h2_text2': '404 Page Non Trouvée',
+    'mics.404_line1': 'Désolé, nous n’avons pas trouvé cette page.',
+    'mics.404_line2': 'Vous pouvez retourner à l’accueil pour continuer.',
+    'mics.404_back': 'Retour à l’accueil',
+    'mics.contact_title': 'Contacter le Support TikTokio',
+    'mics.contact_h1': 'Des réponses à vos questions',
+    'mics.contact_h2': 'CONTACTEZ-NOUS',
+    'mics.contact_text': 'Besoin d’aide ou envie de partager un avis ? Nous sommes à votre écoute.',
+    'mics.contact_form_h': 'Prendre contact',
+    'mics.contact_form_f1': 'Votre Nom',
+    'mics.contact_form_f2': 'Votre email',
+    'mics.contact_form_f3': 'Votre message...',
+    'mics.contact_submit': 'Envoyer',
+    'mics.blog': 'Blog TikTokio – Astuces et Mises à Jour',
+    'mics.blog_h1': 'Le Guide Ultime – Blog TikTokio',
+    'mics.blog_desc': 'Maîtrisez les téléchargements TikTok sans filigrane en HD gratuitement.',
+    'mics.back_blog': 'Retour au blog',
+    'mics.category_title1': 'Articles sur',
+    'mics.category_title2': 'dans TikTokio',
+    'mics.category_desc': 'Découvrez nos tutoriels sur',
+    'mics.category_desc2': '.',
+
+    // Blog section
+    'blog.prev': 'Préc.',
+    'blog.next': 'Suiv.',
+  },
+
+  de: {
+  
+  // Main Site metadata
+	'site.title': 'TikTokio - Kostenloser TikTok Video Downloader Ohne Wasserzeichen Online',
+    'site.description': 'TikTokio – Der beste kostenlose TikTok Video Downloader online ohne Wasserzeichen für unbegrenzte Downloads. TikTok-Videos per Link in HD herunterladen.',
+	'site.keywords': 'TikTokio, TikTok Video Downloader online, TikTok Video herunterladen, unbegrenzte TikTok Downloads, kostenloser TikTok Downloader, TikTok Videos speichern, TikTok Downloader online',
+
+	// TikTok Video Downloader Page metadata
+    'tvd.title': 'TikTokio – TikTok Video Downloader Ohne Wasserzeichen Kostenlos HD',
+    'tvd.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem Online TikTok Video Downloader in Full HD über TikTokio herunter. Schnellster Online TikTok Downloader.',
+    'tvd.keywords': 'TikTokio, TikTok Video Downloader, TikTok Video herunterladen, kostenloser TikTok Downloader, TikTok Videos speichern, TikTok Downloader online',
+    
+	// TikTok Downloader Page metadata
+	'td.title': 'TikTokio TikTok Downloader – Kostenloser Download Ohne Wasserzeichen HD',
+    'td.description': 'Der TikTokio TikTok Downloader entfernt Wasserzeichen sofort. Laden Sie TikTok-Videos & Sounds kostenlos in HD auf Handy oder PC herunter. Schnell, sicher, ohne App.',
+    'td.keywords': 'TikTokio, TikTok Downloader ohne Wasserzeichen, TikTok Videos online speichern, wie man TikTok Videos herunterlädt, bestes TikTok Downloader Tool, TikTok Downloader Webseite, TikTok Video Downloader App, kostenloser TikTok Video Saver, TikTok MP4 herunterladen',
+    
+	// Download TikTok Video Page metadata
+	'dtv.title': 'TikTokio TikTok Video Ohne Wasserzeichen Herunterladen – Kostenlos HD Schnell',
+    'dtv.description': 'Mit TikTokio laden Sie TikTok-Videos in Full HD ohne Wasserzeichen in Sekunden herunter. Schnellster kostenloser TikTokio Downloader mit unbegrenzten Downloads.',
+    'dtv.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader, TikTok Videos online herunterladen, TikTok Videos ohne Wasserzeichen speichern',
+
+	// Download Foto Tiktok Page metadata
+	'dft.title': 'TikTok Foto Downloader – Diashow-Bilder Ohne Wasserzeichen Herunterladen',
+    'dft.description': 'TikTok Foto Download. Laden Sie TikTok Diashows & Karussells ohne Wasserzeichen in Full HD herunter. Kostenlos, ohne Login, funktioniert auf iPhone & Android!',
+    'dft.keywords': 'TikTok Foto Downloader ohne Wasserzeichen, TikTok Diashow Bilder herunterladen, TikTok Foto Karussell ohne Wasserzeichen speichern, TikTok Foto Downloader 2025, alle Fotos eines TikTok Posts herunterladen',
+
+	// Musically Down Page metadata
+	'md.title': 'Musically Down - TikTok Video Ohne Wasserzeichen Online Herunterladen',
+    'md.description': 'Musically Down TikTok Video Downloader! Laden Sie TikTok-Videos mit oder ohne Wasserzeichen online herunter. Speichern Sie TikTok-Videos in HD und MP3.',
+    'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
+
+	// Savefrom Download From Tiktok Page metadata
+	'savef.title': 'SaveFrom - TikTok Video Downloads - Savefromnet TikTok Downloader',
+    'savef.description': 'Entdecken Sie den schnellsten TikTok Video Downloader von savefromnet. Laden Sie jedes TikTok Video in HD ohne Wasserzeichen herunter.',
+    'savef.keywords': 'TikTokio, TikTok Video Download, TikTok Video Downloader, TikTok Video herunterladen, TikTok Video Download ohne Wasserzeichen, TikTok Video downloaden',
+
+	// Savetik Downloader Page metadata
+	'savetik.title': 'SaveTik Downloader - TikTok Videos Ohne Wasserzeichen Kostenlos Speichern',
+    'savetik.description': 'SaveTik Downloader ist ein TikTok Video Downloader ohne Wasserzeichen. Sie können TikTok-Videos von jedem Gerät speichern.',
+    'savetik.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader, TikTok Videos online herunterladen, TikTok Videos ohne Wasserzeichen speichern',
+
+	// Savett Page metadata
+	'savett.title': 'SaveTT - TikTok Videos Ohne Wasserzeichen in Sekunden Speichern',
+    'savett.description': 'SaveTT ist der beste Weg, TikTok-Videos online zu speichern. Nutzen Sie SaveTT für HD-Downloads ohne Wasserzeichen. Schnell, kostenlos und geräteübergreifend.',
+    'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok speichern, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader',
+
+	// SnapTik Page metadata
+	'snaptik.title': 'SnapTik - TT Video Downloader TikTok Videos Ohne Wasserzeichen Herunterladen',
+    'snaptik.description': 'SnapTik - Laden Sie TikTok-Videos sofort mit SnapTik herunter. SnapTik ist ein kostenloser TikTok Video Downloader.',
+    'snaptik.keywords': 'TikTokio, snaptik, Video TikTok herunterladen, download tiktok, tiktok downloader, Video TikTok ohne Wasserzeichen herunterladen',
+
+	// SssTik Page metadata
+	'ssstik.title': 'SSSTik - TikTok Downloader TikTok Videos online herunterladen.',
+    'ssstik.description': 'ssstiktok lässt Sie TikTok-Videos sofort herunterladen. Schnellster Downloader für TT-Videos in hoher Qualität (MP4).',
+    'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3',
+
+	// SssTikTok Page metadata
+	'ssstiktok.title': 'SSSTikTok - TikTok Downloader Ohne Wasserzeichen Video Online Herunterladen',
+    'ssstiktok.description': 'SSSTikTok Online Downloader ist ein kostenloser Service für TikTok-Videos ohne Wasserzeichen in HD. TikTok zu Mp4.',
+    'ssstiktok.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader',
+
+	// Tikmate Page metadata
+	'tikmate.title': 'Tikmate - Video TikTok herunterladen, TikTok Downloader MP4 kostenlos',
+    'tikmate.description': 'Tikmate ist ein schneller und einfacher TikTok Video Downloader ohne Wasserzeichen in HD. Am besten ohne Login zu verwenden.',
+    'tikmate.keywords': 'TikTokio, Video TikTok ohne Wasserzeichen herunterladen, tikmate downloader online, kostenloser TikTok Downloader',
+
+	// Tiksave Page metadata
+	'tiksave.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
+    'tiksave.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+    'tiksave.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
+
+	// TikToksss Page metadata
+	'tiktoksss.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
+    'tiktoksss.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+    'tiktoksss.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
+
+	// Tmate Page metadata
+	'tmate.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
+    'tmate.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+    'tmate.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
+
+	// Ttdownloader Page metadata
+	'ttdownloader.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
+    'ttdownloader.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+    'ttdownloader.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
+ 
+    // Hero section
+    'main.hero.title': 'TikTokio - TikTok Video Downloader Online',
+    'main.hero.subtitle': 'TikTok-Videos in Sekunden herunterladen, TikTok zu Mp4 Tool online',
+
+	'tvd.hero.title': 'TikTokio - Schnellster TikTok Video Downloader',
+    'tvd.hero.subtitle': 'Video TikTok ohne Wasserzeichen herunterladen - Kostenlos & Einfach',
+
+	'td.hero.title': 'TikTokio - TikTok Downloader',
+    'td.hero.subtitle': 'Online TikTok Downloader für schnelles und problemloses Herunterladen',
+
+	'dtv.hero.title': 'TikTokio - TikTok Video Ohne Wasserzeichen Herunterladen',
+    'dtv.hero.subtitle': 'TikTok-Videos sofort herunterladen mit dem schnellen TikTok Downloader',
+
+	'dft.hero.title': 'TikTokio - TikTok Vorschaubild Online Herunterladen',
+    'dft.hero.subtitle': 'TikTok Thumbnail und Cover-Foto herunterladen - Vorschaubild Downloader',
+
+	'md.hero.title': 'Musically Down – TikTok Ohne Wasserzeichen Herunterladen',
+    'md.hero.subtitle': 'Laden Sie Ihre Lieblings-TikTok-Videos mit Musically Down herunter',
+
+	'savef.hero.title': 'SaveFrom - TikTok Video Downloader',
+    'savef.hero.subtitle': 'TikTok-Videos in Full HD Qualität mit dem SaveFrom TikTok Downloader herunterladen',
+
+	'savetik.hero.title': 'Save TikTok - TikTok Videos Ohne Wasserzeichen Online Herunterladen',
+    'savetik.hero.subtitle': 'TikTok Videos herunterladen, ohne Wasserzeichen! Unbegrenzte Downloads',
+
+	'ssstiktok.hero.title': 'SSSTikTok - Online Kostenloser TikTok Video Downloader',
+    'ssstiktok.hero.subtitle': 'TikTok Downloader ohne Wasserzeichen! TikTok Mp4 und HD Videos online speichern',
+
+	'tikmate.hero.title': 'Tikmate - TikTok Videos Ohne Wasserzeichen Herunterladen',
+    'tikmate.hero.subtitle': 'TikTok Downloader - Videos ohne Wasserzeichen speichern',
+
+	'tiksave.hero.title': 'TikSave Online TikTok Video Downloader',
+    'tiksave.hero.subtitle': 'Einfach TikTok-Videos online ohne Wasserzeichen mit TikSave speichern',
+
+	'tiktoksss.hero.title': 'TikTokSSS - Online Kostenloser TikTok Downloader',
+    'tiktoksss.hero.subtitle': 'SSSTikTok TikTok-Videos ohne Wasserzeichen in HD Qualität herunterladen',
+
+	'tmate.hero.title': 'Tmate - TikTok Downloader ohne Wasserzeichen',
+    'tmate.hero.subtitle': 'Online Video Downloader für TikTok - Kein Wasserzeichen - TMate',
+
+	'ttdownloader.hero.title': 'TTDownloader - TikTok Video Download Ohne Wasserzeichen',
+    'ttdownloader.hero.subtitle': 'TikTok Video ohne Wasserzeichen herunterladen — HD Qualität, MP4 Format',
+
+	// Header/Navigation
+    'header.blog_link': 'Wie speichert man ein TikTok Video?',
+    'header.nav_1': 'TikTok Downloader',
+    'header.nav_2': 'TikTok Video herunterladen',
+    'header.nav_3': 'TikTok Video Downloader',
+	'header.nav_4': 'TikTok Speichern',
+
+
+	// Main features section
+	'main.title': 'TikTokio', 
+	'main.h2': ' - TikTok Videos Ohne Wasserzeichen Kostenlos Herunterladen',
+	'main.hkf1': 'Hauptfunktionen von',
+	'main.hkf2': 'um TikTok Videos ohne Wasserzeichen online zu speichern',
+	'tiktokio.para1': 'TikTokio ist ein 100% kostenloser All-in-One TikTok Video Downloader. Speichern Sie TikTok Videos ohne Wasserzeichen. <a href="/" class="font-semibold text-blue-800 hover:text-orange-600 underline">TikTokio</a> bietet als leistungsstarker Downloader ein nahtloses Browser-Erlebnis ohne Installation oder Registrierung. Genießen Sie unbegrenzte HD-Downloads ohne Wasserzeichen auf jedem Gerät.',
+   	'pgfeatures.paraleft2': 'TikTokio kann TikTok-Inhalte in HD ohne Branding herunterladen. Egal ob Sie es <a href="/savetik-download-tiktok-video-without-watermark-free" class="font-semibold text-blue-800 hover:text-orange-600 underline">TikTok Video speichern</a> Tool oder TikTokio Shortcut nennen, es ist auf Geschwindigkeit und Sicherheit ausgelegt.',
+	'main.popular_text': 'TikTokio hilft Ihnen, Videos schnell ohne Wasserzeichen zu laden. Link kopieren, einfügen und das Format wählen. Speichern Sie in MP4 oder MP3.',
+    'main.feature_text': 'Die Vielseitigkeit von TikTokio geht über Standard-MP4 hinaus. Suchen Sie den besten Weg für den <a href="/musical-down-tiktok-downloader" class="font-semibold text-orange-600 underline">TikTok Video Download</a>? Nutzen Sie TikTokio für HD-Inhalte ohne Wasserzeichen auf allen Geräten.',
+	'why.h2': 'Warum TikTokio für Ihre TikTok-Speicherbedürfnisse wählen?',
+    'main.ftur': 'Wenn es um das Speichern von TikTok-Videos geht, zählen Qualität und Geschwindigkeit. TikTokio ist die führende Lösung für TikTok-Sicherungen.',
+	'main.ftur2': 'Der TikTok Image Downloader hilft beim Speichern von Foto-Slides. Erfasst einzelne Bilder in voller Auflösung.',
+	
+	'main.popular_heading1': 'TikTok Video ohne Wasserzeichen laden',
+    'main.heading1_text': 'Mit TikTokio ist jedes Video 100% sauber, ohne TikTok-Logo oder Benutzernamen-Overlay.',
+    'main.popular_heading2': 'Keine Registrierung erforderlich:',
+    'main.heading2_text': 'Keine persönlichen Daten oder Accounts nötig. Link einfügen und loslegen.',
+    'main.popular_heading3': 'HD-Qualität Downloads',
+    'main.heading3_text': 'TikTokio holt die höchstmögliche Auflösung der TikTok-Server für ein gestochen scharfes Bild.',
+    'main.popular_heading4': 'Unbegrenzte Nutzung:',
+    'main.heading4_text': 'Es gibt keine täglichen Limits für Ihre TikTok-Downloads.',
+    'main.popular_heading5': 'MP4 & MP3 Support',
+    'main.heading5_text': 'Laden Sie Videos oder extrahieren Sie nur den MP3-Ton. Perfekt für virale Sounds.',
+    'main.popular_heading6': 'Privatsphäre zuerst',
+    'main.heading6_text': 'TikTokio speichert keinen Verlauf Ihrer heruntergeladenen Videos.',
+
+	'tvd.h2': 'Wie der Online TikTok Download funktioniert',
+	'tvd.text': 'Willkommen bei TikTokio. Laden Sie Videos ohne Wasserzeichen in HD. Unser Tool ist universell kompatibel und funktioniert in jedem Browser auf jedem Gerät. So geht’s:',
+	'tvd.how1': 'TikTok Link kopieren',
+	'tvd.how1text': 'Öffnen Sie TikTok und kopieren Sie den Link des gewünschten Videos.',
+	'tvd.how2': 'URL einfügen',
+	'tvd.how2text': 'Fügen Sie den Link in das Feld auf <a href="/download-tiktok-video/">https://tiktokio.cam]</a> ein.',
+	'tvd.how3': 'Video herunterladen',
+	'tvd.how3text': 'Klicken Sie auf "Download", um das Video in Sekunden auf Ihrem Gerät zu speichern.',
+	
+
+	'dtv.th2': 'TikTokio - TikTok Videos ohne Wasserzeichen in Sekunden',
+	'dtv.text': 'TikTokio hilft Ihnen, <a href="/download-tiktok-video/">TikTok Videos</a> in bester Qualität ohne störendes Wasserzeichen zu laden.',
+	'dtv.text1': 'Es ist die benutzerfreundlichste Wahl für HD-Downloads ohne Werbung oder Registrierungszwang.',
+
+	
+	'dtv.h2': 'So laden Sie TikTok Videos kostenlos ohne Wasserzeichen',
+	'dtv.how2text': 'Entdecken Sie, wie einfach HD-Downloads mit TikTokio sind. Kein App-Zwang, sicher und schnell. Hier ist die Anleitung:',
+	'dtv.how1': 'URL finden & kopieren',
+	'dtv.how1text': 'Video suchen -> Teilen -> Link kopieren.',
+	'dtv.how2': 'TikTokio besuchen',
+	'dtv.how2ntext': 'Öffnen Sie <a href="/">TikTokio</a> in Chrome, Safari oder Firefox.',
+	
+	
+	'dtv.how3': 'URL einfügen',
+	'dtv.how3paste': 'Link in das Eingabefeld einfügen.',
+	'dtv.how4': 'Download starten',
+	'dtv.how4text': 'Auf <strong>"Download"</strong> klicken und Video speichern.',
+	
+
+
+
+	
+	'main.down_button': 'TikTok Downloader jetzt testen',
+    'main.input_placeholder': 'E-Mail eingeben',
+    'main.button_text': 'Abonnieren',
+    'main.privacy': 'Wir schützen Ihre Daten. Lesen Sie unsere',
+    'main.privacy_link': 'Datenschutzerklärung.',
+
+	// Main How it Works Main
+	'how.works_h2': 'Anleitung zum TikTok Download:',
+	'how.works': 'TikTok Videos ohne Wasserzeichen mit <strong>TikTokio</strong> zu laden ist einfacher als gedacht:',
+	'how.step1': 'Link kopieren',
+    'how.step1text': 'Bei TikTok auf <strong>"Teilen"</strong> und <strong>"Link kopieren"</strong> klicken.',
+	'how.step2': 'Einfügen & Verarbeiten',
+    'how.step2text': 'Auf <a href="/">TikTokio</a> den Link einfügen und <strong>"Download"</strong> drücken.',
+	'how.step3': 'Video speichern',
+	'how.step3text': 'Option ohne Wasserzeichen wählen und speichern.',
+
+	  // Main FAQ section
+    'faq.title_sec1': 'FAQs über den',
+    'faq.title_sec2': 'TikTok Video Downloader',
+
+    'faq.faq_text': 'Antworten auf die häufigsten Fragen zu TikTokio.',
+    'faq.question1': 'Ist TikTokio kostenpflichtig?',
+    'faq.answer1': 'Nein, TikTokio ist völlig kostenlos. Laden Sie so viele Videos wie Sie möchten.',
+    'faq.question2': 'Wie speichere ich Videos auf dem iPhone?',
+    'faq.answer2': 'Nutzen Sie Safari auf TikTokio.cam. Der Download landet direkt in Ihrer "Dateien"-App.',
+    'faq.question3': 'Kann ich private Videos laden?',
+    'faq.answer3': 'Nein, nur Videos, die vom Ersteller auf "Öffentlich" gestellt wurden.',
+    'faq.question4': 'Funktioniert es für Diashows?',
+    'faq.answer4': 'Ja, Sie können hochwertige Fotos aus jeder öffentlichen Diashow speichern.',
+    'faq.question5': 'Ist TikTokio schneller als andere?',
+    'faq.answer5': 'Ja, unsere Hochgeschwindigkeitsserver ermöglichen HD-Downloads in Sekunden.',
+    'faq.question6': 'Werden moderne Browser unterstützt?',
+    'faq.answer6': 'Ja, alle von iPhone (Safari) bis Android (Chrome) und Smart-TVs.',
+   
+	
+	// Musically Down Feature section
+	'md.h2': 'Musically Down', 
+	'md.h2_1': ' - TikTok Video Downloader Online',
+    'md.text1': 'Musical Down bietet eine einfache Lösung für Videos ohne Wasserzeichen im MP4-Format.',
+	'md.text2': 'Es gilt als eines der zuverlässigsten webbasierten Tools für hochauflösende Downloads.',
+	'md.featureh': 'TikTokio - MusicallyDown Funktionen:', 
+	'md.feature1': 'Vollständige Entfernung des Wasserzeichens.',
+  	'md.feature2': 'Unterstützt HD und Full HD Auflösungen.',
+	'md.feature3': 'Keine Installation von verdächtigen APKs nötig.',
+	'md.feature4': 'Konvertierung in hochwertige MP3-Dateien möglich.',
+	'md.feature5': 'Unbegrenzte kostenlose Nutzung ohne Account.',
+	'md.feature6': 'Einfache Benutzeroberfläche für schnelle Ergebnisse.',
+	  
+	// How it Works Musically Down
+	'md.howh2': 'MusicalDown - Anleitung ohne Wasserzeichen',
+	'md.how2text': 'Der Prozess ist auf allen Geräten gleichbleibend einfach:',
+	'md.find': 'Link kopieren',
+	'mdhow.step1': 'Bei TikTok auf <strong>"Teilen"</strong> -> <strong>"Link kopieren"</strong>.',
+	'md.paste': 'Einfügen',
+	'mdhow.step2': 'Auf <a href="/musical-down-tiktok-downloader">MusicalDown</a> einfügen und <strong>"Download"</strong> klicken.',
+	'md.download': 'Download wählen',
+	'mdhow.step3': 'Bevorzugte Option wählen und in Sekunden speichern.',
+
+	// FAQs Musically Down
+	'md.faqh': 'MusicallyDown',
+	'md.q1': 'Ist der Download legal?',
+	'md.ans1': 'Für den persönlichen Gebrauch ist es meist akzeptabel. Kommerzielle Nutzung erfordert die Erlaubnis des Erstellers.',
+	'md.q2': 'Private Videos?',
+	'md.ans2': 'Nein, nur öffentliche Inhalte werden unterstützt.',
+	'md.q3': 'Download-Limit?',
+	'md.ans3': 'Keine Limits, der Service ist rund um die Uhr kostenlos.',
+	'md.q4': 'Android-Unterstützung?',
+	'md.ans4': 'Ja, funktioniert in jedem mobilen Browser.',
+	'md.q5': 'Download fehlgeschlagen?',
+	'md.ans5': 'Prüfen Sie, ob das Video öffentlich und noch online ist.',
+	'md.q6': 'Wasserzeichen noch da?',
+	'md.ans6': 'Cache leeren und erneut versuchen.',
+	
+
+
+	 // SaveTik  Feature section
+	'st.h2': 'SaveTik', 
+	'st.h2_1': ' - Online TikTok Downloader zum Speichern',
+	'st.text': 'SaveTik ist auf Effizienz getrimmt. Funktioniert ohne App auf jedem Gerät und liefert saubere MP4- oder MP3-Dateien.',
+    'st.text1': 'TikTokio - SaveTik ist die erste Adresse für Profi-Downloads.',
+	'st.text2': 'Erhalten Sie die Originalqualität ohne Logo dank optimierter Server.',
+	'st.text3': 'Schlankes Nutzererlebnis: Wasserzeichen entfernen, schnell laden.',
+	'st.text4': 'Cross-Plattform Support für iPhone, Android und PC.',
+    'st.featureh': 'SaveTik Funktionen:', 
+	'st.fth1': 'Unbegrenzt', 
+	'st.feature1': 'Keine Download-Limits.',
+	'st.fth2': 'Kostenlos', 
+  	'st.feature2': 'Schnellste Lösung für TikTok.',
+	'st.fth3': 'Kein Wasserzeichen', 
+    'st.feature3': 'Entfernt Logos während des Downloads.',
+	'st.fth4': 'Schnelle Verarbeitung', 
+	'st.feature4': 'In wenigen Schritten zu MP4.',
+	'st.fth5': 'Hohe Qualität', 
+	'st.feature5': 'Kostenlose HD-Downloads.',
+	'st.fth6': 'Alle Geräte', 
+	'st.feature6': 'PC, Android und iOS kompatibel.',
+	'st.fth7': 'Speed-Parsing', 
+	'st.feature7': 'Sofortige Analyse der Links.',
+	  
+	// How it Works SaveTik
+	'st.howh2': 'In 3 Schritten TikTok speichern',
+	'st.how2text': 'SaveTik ist der einfache Weg zu HD-Inhalten:',
+	'st.find': 'URL kopieren',
+	'st.paste': 'Link einfügen',
+	'st.download': 'Inhalt speichern',
+	'st.save': 'Speichern & Genießen', 
+    'sthow.step1': 'URL kopieren:',
+	'sthow.step1text': 'Video suchen -> Teilen -> Link kopieren.',
+	'sthow.step2': 'SaveTik öffnen:',
+    'sthow.step2text': 'Link einfügen und <strong>"Download"</strong> drücken.',
+	'sthow.step3': 'Einfach speichern',
+	'sthow.step3text': 'Option ohne Wasserzeichen für ein sauberes File wählen.',
+    
+	
+	// FAQs SaveTik
+	'st.faqh': 'SaveTik',
+	'st.q1': 'Ist die Nutzung legal?',
+	'st.ans1': 'Ja, für den persönlichen Offline-Gebrauch. Urheberrecht beachten.',
+	'st.q2': 'TikTok Account nötig?',
+	'st.ans2': 'Nein, kein Login erforderlich.',
+	'st.q3': 'Wo landen die Downloads?',
+	'st.ans3': 'Normalerweise im "Downloads"-Ordner Ihres Geräts.',
+	'st.q4': 'Fotos & Diashows?',
+	'st.ans4': 'Ja, unterstützt auch TikTok-Bilder.',
+	'st.q5': 'Was ist ein Video ohne Wasserzeichen?',
+	'st.ans5': 'Ein Video ohne Logo oder Benutzernamen-Stempel.',
+	'st.q6': 'Warum klappt es nicht?',
+	'st.ans6': 'Falscher Link oder instabiles Internet. Link prüfen.',
+	 
+
+
+
+ // Savefrom  Feature section
+	'sf.h2': 'SaveFrom', 
+	'sf.h2_1': ' - TikTok Video Downloads - Schnell & Einfach',
+	'sf.text1': 'SaveFrom ist eines der effizientesten Tools für schnelle TikTok-Sicherungen.',
+	'sf.text2': 'Wählen Sie das passende Format für Ihr Gerät.',
+	'sf.text3': 'Kostenlose Lösung für HD-Inhalte ohne Registrierung.',
+	'sf.featureh': 'SaveFrom Hauptfunktionen', 
+	'sf.feature1': 'Downloads ohne Wasserzeichen für saubere Dateien.',
+  	'sf.feature2': 'MP4 und MP3 Optionen mit <a href="/savefrom-download-from-tiktok">SaveFrom</a>.',
+    'sf.feature3': 'Sofortige Verarbeitung ohne Warteschlangen.',
+	'sf.feature4': '100% kostenlos, keine Software-Installation.',
+	'sf.feature5': 'Funktioniert auf Windows, Mac, Android, iOS.',
+	'sf.feature6': 'Unbegrenzte Downloads ohne tägliche Limits.',
+	'sf.feature7': 'Benutzerfreundliches Design.',
+	  
+	// How it Works SaveTik
+  	'sf.howh1': 'TikTok ohne Wasserzeichen mit SaveFrom',
+  	'sf.howh1text': 'Sicheres Tool, das keine Videos auf seinen Servern speichert.',
+
+	'sf.howh2': 'So nutzen Sie SaveFrom online',
+	'sf.how2text': 'Nahtlose Lösung für direkte Downloads.',
+	'sf.find': 'Link finden & kopieren',
+	'sf.paste': 'URL einfügen',
+	'sf.download': 'Auf Download klicken',
+	'sf.save': 'Datei wird direkt gespeichert', 
+
+	'sfhow.step1': 'Bei TikTok auf <strong>"Teilen"</strong> -> <strong>"Link kopieren"</strong>.',
+	'sfhow.step2': 'Auf <a href="/savefrom-download-from-tiktok">SaveFrom</a> einfügen.',
+	'sfhow.step3': 'Server wählen und <strong>"Download"</strong> klicken.',
+	'sfhow.step4': 'Video speichern und genießen.',
+	
+	// FAQs SaveFrom
+	'sf.faq': 'Downloads mit',
+	'sf.q1': 'Audio inklusive?',
+	'sf.ans1': 'Ja, SaveFrom speichert Videos mit Original-Ton.',
+	'sf.q2': 'Welche Formate?',
+	'sf.ans2': 'Hauptsächlich MP4, aber auch WEBM/3GP möglich.',
+	'sf.q3': 'Mobiler Browser?',
+	'sf.ans3': 'Ja, Chrome oder Safari auf dem Handy funktionieren perfekt.',
+	'sf.q4': 'Nutzungsbedingungen?',
+	'sf.ans4': 'Nur für den persönlichen Gebrauch gedacht.',
+	'sf.q5': 'Account nötig?',
+	'sf.ans5': 'Nein, absolut anonym nutzbar.',
+	'sf.q6': 'Geschwindigkeit?',
+	'sf.ans6': 'Abhängig von Ihrer Internetverbindung fast instant.',
+	 
+// SaveFrom End section
+
+
+
+	 // SaveTT  Feature section
+	'stt.h2': 'SaveTT', 
+	'stt.h2_1': ' - TikTok Videos ohne Wasserzeichen in Sekunden',
+	'stt.text1': 'SaveTT ist Ihr 100% kostenloses Tool für Offline-Inhalte.',
+	'stt.text2': 'Nutzen Sie SaveTT auf TikTokio für HD-Inhalte ohne Logo.',
+	'stt.text3': 'Downloads in MP3 und MP4 für PC, Mac und Smartphone.',
+	'stt.text4': 'Das ultimative Tool für sofortige Speicherung.',
+	'stt.featureh': 'SaveTT Funktionen:', 
+	'stt.fth1': 'Unbegrenzt', 
+	'stt.feature1': 'Ohne Kosten so viel laden wie gewünscht.',
+	'stt.fth2': 'Einfach', 
+  	'stt.feature2': 'Schnelles, unkompliziertes Tool.',
+	'stt.fth3': 'Kein Wasserzeichen', 
+    'stt.feature3': 'Saubere Entfernung aller Logos.',
+	'stt.fth4': 'MP4 & MP3', 
+	'stt.feature4': 'Konvertierung nach Bedarf.',
+	'stt.fth5': 'HD Qualität', 
+	'stt.feature5': 'Erhält die ursprüngliche Bildschärfe.',
+	'stt.fth6': 'Alle Geräte', 
+	'stt.feature6': 'Unterstützt alle Betriebssysteme.',
+	'stt.fth7': 'Speed-Parsing', 
+	'stt.feature7': 'Hochgeschwindigkeitsserver für schnelle Ergebnisse.',
+	  
+	// How it Works SaveTik
+	'stthow.h2': 'Anleitung für SaveTT', 
+	
+	'stt.how2text': 'Die Nutzung ist kinderleicht:',
+	'stt.copy': 'Link kopieren:',
+	'stt.find': 'Teilen -> Link kopieren auf TikTok.',
+	'stt.paste': 'Bei SaveTT einfügen:',
+	'stt.pastetext': 'Auf <a href="/savett-tiktok-downloader-save-tiktok-videos">SaveTT</a> einfügen.',
+	'stt.download': 'Download:',
+	'stt.downloadtext': 'Format wählen und speichern.',
+	'stt.save': 'Inhalt genießen', 
+
+	'stthow.step1': 'Link in der App kopieren.',
+	'stthow.step2': 'Im Tool einfügen.',
+	'stthow.step3': 'Server wählen.',
+	'stthow.step4': 'Datei auf dem Gerät speichern.',
+	
+	// FAQs SaveTik
+	'stt.faqh': 'SaveTT',
+	'stt.faq_text': 'Antworten zu SaveTT.',
+	'stt.faqtext': 'Qualität und Speed stehen bei uns an erster Stelle.',
+	'stt.q1': 'Legal?',
+	'stt.ans1': 'Für persönlichen Gebrauch meist Fair-Use.',
+	'stt.q2': 'Erfährt es der Ersteller?',
+	'stt.ans2': 'Nein, der Download ist vollkommen anonym.',
+	'stt.q3': 'Private Videos?',
+	'stt.ans3': 'Nein, nur öffentliche Videos.',
+	'stt.q4': 'Kosten?',
+	'stt.ans4': 'Völlig kostenlos ohne versteckte Gebühren.',
+	'stt.q5': 'Speicherort?',
+	'stt.ans5': 'Im Standard-Downloadordner Ihres Browsers.',
+	'stt.q6': 'Sicher?',
+	'stt.ans6': 'Ja, keine Installation nötig, alles läuft über unsere Server.',
+	 
+    // Savett End section
+
+
+	  
+    // Miscellaneous section
+    'mics.404_title': 'Fehler 404 Seite nicht gefunden | TikTokio',
+    'mics.404_h2_text': 'Fehler',
+    'mics.404_h2_text2': '404 Seite nicht gefunden',
+    'mics.404_line1': 'Entschuldigung, diese Seite existiert nicht.',
+    'mics.404_line2': 'Keine Sorge, auf unserer Startseite finden Sie alles Wichtige.',
+    'mics.404_back': 'Zurück zur Startseite',
+    'mics.contact_title': 'TikTokio Support kontaktieren',
+    'mics.contact_h1': 'Fragen zu TikTokio?',
+    'mics.contact_h2': 'KONTAKT',
+    'mics.contact_text': 'Wir freuen uns auf Ihre Nachricht oder Feedback.',
+    'mics.contact_form_h': 'Kontakt aufnehmen',
+    'mics.contact_form_f1': 'Ihr Name',
+    'mics.contact_form_f2': 'Ihre E-Mail',
+    'mics.contact_form_f3': 'Ihre Nachricht...',
+    'mics.contact_submit': 'Nachricht senden',
+    'mics.blog': 'TikTokio Blog – Tipps & Tricks',
+    'mics.blog_h1': 'Der ultimative Guide – TikTokio Blog',
+    'mics.blog_desc': 'TikTok Downloads meistern ohne Wasserzeichen in HD.',
+    'mics.back_blog': 'Zurück zum Blog',
+    'mics.category_title1': 'Beiträge über',
+    'mics.category_title2': 'in TikTokio',
+    'mics.category_desc': 'Tutorials und Artikel zum Thema',
+    'mics.category_desc2': '.',
+
+    // Blog section
+    'blog.prev': 'Zurück',
+    'blog.next': 'Weiter',
+  },
+  
 
 } as const;
 
