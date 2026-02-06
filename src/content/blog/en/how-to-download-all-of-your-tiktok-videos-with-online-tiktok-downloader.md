@@ -53,7 +53,7 @@ Saving a TikTok video through the browser on your computer is easier than on you
 
 2\.  Right-click the video and **select Download video**.
 
-Just as when trying to save videos on your phone, you can only [download TikTok videos](https://stiktokio.com/) that can be saved. The original content you uploaded should be eligible for you to save offline.
+Just as when trying to save videos on your phone, you can only [download TikTok videos](https://tiktokio.cam/) that can be saved. The original content you uploaded should be eligible for you to save offline.
 
 ## Uncertainty abounds
 

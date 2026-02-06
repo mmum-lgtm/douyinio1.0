@@ -23,6 +23,6 @@ Disallow: /
 
 
 # Sitemap location
-Sitemap: https://tiktokiotestv.vercel.app/sitemap-index.xml
-Sitemap: https://tiktokiotestv.vercel.app/sitemap-0.xml
+Sitemap: https://tiktokio.cam/sitemap-index.xml
+Sitemap: https://tiktokio.cam/sitemap-0.xml
 
