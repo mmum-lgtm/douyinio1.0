@@ -1,36 +1,28 @@
+
 ---
-// src/pages/musically-down.astro
-
 import Container from "@components/container.astro";
-import Layout from "@layouts/Layout.astro";  // Single import
-import Hero from "@components/md-hero.astro";
-import Features from "@components/mdfeatures.astro";
-import Mdlogos from "@components/mdlogos.astro";
-import Logos from "@components/logos.astro";
-import Faq from "@components/mdfaq.astro";
+import Layout from "@layouts/Layout.astro";
 
-// i18n: Per-page setup
+import Hero from "@components/hero.astro";
+import Features from "@components/features.astro";
+import Faq from "@components/faq.astro";
+
+// Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+// Get current language and create translation function
 const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
 const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
-
-// SEO/props: Matched to ui.ts structure (flat keys under language)
-const title = t('md.title') ?? 'TikTok Video Downloader - Free HD Downloads Without Watermark | TikTokio';
-const description = t('md.description') ?? 'Download TikTok videos in HD quality, no watermark, for free. Supports MP4 and audio export.';
-const keywords = t('md.keywords') ?? 'tiktok video downloader, download tiktok videos, tiktok hd downloader, no watermark tiktok, tiktokiocam';
-const image = 'meta/md-tiktok-downloader.webp';  // Static; add to ui.ts if i18n needed (e.g., t('site.tvd_image'))
-const variant = 'md';
 ---
-<Layout title={title} description={description} keywords={keywords} image={image} variant={variant} lang={lang}>
-   <Hero />
-  <Container>
-    <Features />
-    <Mdlogos />
 
-
-    <Faq />
-  </Container>
+<Layout>
+  <Hero />
+  <div>
+    <Container>
+      <Features />
+      <Faq />
+    </Container>
+  </div>
 </Layout>
-
 
