@@ -13,12 +13,11 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 
 // SEO/props: Matched to ui.ts structure (flat keys under language)
-const title = t('savef.title') ?? 'SaveFrom - TikTok Video Downloads - Savefromnet Tiktok Downloader';
-const description = t('savef.description') ?? 'Discover the fastest TikTok video downloader by savefromnet. download any TikTok video in HD without watermark in seconds. Start downloading now!';
-const keywords = t('savef.keywords') ?? 'TikTokio, tiktok video download, tiktok video downloader, download tiktok video, tiktok video download without watermark, tiktok download video';
-const image = 'meta/md-tiktok-downloader.webp';
-const favicon = t('savef.favicon') || 'https://en1.savefrom.net/img/icon_100.png';
-const variant = 'savefrom';
+const title = t('site.title') ?? 'TikTokio - 무료 틱톡 비디오 다운로더 온라인 (워터마크 없음)';
+const description = t('site.description') ?? 'TikTokio – 무제한 틱톡 다운로드를 위한 최고의 무료 온라인 틱톡 비디오 다운로더. 링크만으로 HD 화질의 틱톡 영상을 워터마크 없이 다운로드하세요.';
+const keywords = t('site.keywords') ?? 'TikTokio, 틱톡 비디오 다운로더 온라인, 틱톡 영상 다운로드, 무제한 틱톡 다운로드, 무료 틱톡 다운로더, 틱톡 영상 저장, 틱톡 다운로더 사이트';
+const image = 'meta/opengraph.webp';
+const variant = 'TikTokio';
 
 // Determine text direction based on language (add RTL languages as needed)
 const dir = ['vi', 'ar', 'he', 'fa', 'ur'].includes(lang) ? 'rtl' : 'ltr';

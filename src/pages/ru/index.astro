@@ -13,12 +13,13 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 
 // SEO/props: Matched to ui.ts structure (flat keys under language)
-const title = t('savef.title') ?? 'SaveFrom - TikTok Video Downloads - Savefromnet Tiktok Downloader';
-const description = t('savef.description') ?? 'Discover the fastest TikTok video downloader by savefromnet. download any TikTok video in HD without watermark in seconds. Start downloading now!';
-const keywords = t('savef.keywords') ?? 'TikTokio, tiktok video download, tiktok video downloader, download tiktok video, tiktok video download without watermark, tiktok download video';
-const image = 'meta/md-tiktok-downloader.webp';
-const favicon = t('savef.favicon') || 'https://en1.savefrom.net/img/icon_100.png';
-const variant = 'savefrom';
+const title = t('site.title') ?? 'TikTokio - Бесплатный загрузчик видео из TikTok без водяных знаков онлайн';
+const description = t('site.description') ?? 'TikTokio – лучший бесплатный загрузчик видео из TikTok без водяных знаков для неограниченного скачивания. Скачивайте видео из TikTok по ссылке в HD качестве.';
+const keywords = t('site.keywords') ?? 'TikTokio, загрузчик видео TikTok онлайн, скачать видео из Тик Ток, неограниченное скачивание TikTok, бесплатный загрузчик Тик Ток, сохранить видео из TikTok';
+const image = 'meta/opengraph.webp';
+const variant = 'TikTokio';
+
+
 
 // Determine text direction based on language (add RTL languages as needed)
 const dir = ['vi', 'ar', 'he', 'fa', 'ur'].includes(lang) ? 'rtl' : 'ltr';
