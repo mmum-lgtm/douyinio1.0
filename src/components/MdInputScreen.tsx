@@ -578,14 +578,7 @@ function InputScreen({}: Props) {
       </Show>
 
       {/* Advertisement Section after form - Only show when NO data */}
-      <Show when={!data()}>
-        <div class="my-8 w-full flex justify-center">
-          <div
-            ref={(el) => adContainerRef = el}
-            class="ad-container w-full min-h-62.5"
-          ></div>
-        </div>
-      </Show>
+      
 
       <Show when={!!data() && !!data()?.result}>
         <ResultSection

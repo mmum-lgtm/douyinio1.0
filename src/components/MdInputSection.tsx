@@ -101,7 +101,7 @@ function InputSection(props: InputSectionProps) {
               />
               <button type="button" 
                 onClick={props.onPaste} 
-                class="absolute right-3 top-1/2 transform -translate-y-1/2 bg-rose-600 rounded text-white text-base px-4 py-2 transition-all duration-300 flex items-center">
+                class="absolute right-3 top-1/2 -translate-y-1/2 bg-rose-300 hover:bg-rose-400 text-white text-base px-4 py-2 border-2 border-rose-600 hover:border-rose-700 rounded-md font-medium transition-all duration-300 flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 112 2h2a2 2 0 012-2"></path>
                 </svg>
