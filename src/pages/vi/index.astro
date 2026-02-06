@@ -13,10 +13,10 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 
 // SEO/props: Matched to ui.ts structure (flat keys under language)
-const title = t('site.title');
-const description = t('site.description');
-const keywords = t('site.keywords');
-const image = 'meta/md-tiktok-downloader.webp';
+const title = t('site.title') ?? 'SaveFrom - TikTok Video Downloads - Savefromnet Tiktok Downloader';
+const description = t('site.description') ?? 'Discover the fastest TikTok video downloader by savefromnet. download any TikTok video in HD without watermark in seconds. Start downloading now!';
+const keywords = t('site.keywords') ?? 'TikTokio, tiktok video download, tiktok video downloader, download tiktok video, tiktok video download without watermark, tiktok download video';
+const image = 'meta/opengraph.webp';
 const variant = 'TikTokio';
 
 // Determine text direction based on language (add RTL languages as needed)
