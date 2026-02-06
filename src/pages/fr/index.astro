@@ -4,6 +4,7 @@ import Faq from "@components/faq.astro";
 import Features from "@components/features.astro";
 import Hero from "@components/hero.astro";
 import Layout from "@layouts/Layout.astro";
+
 // Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 
@@ -11,22 +12,13 @@ import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
 const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
-
-// SEO/props: Matched to ui.ts structure (flat keys under language)
-const title = t('site.title') ?? 'TikTokio - Téléchargeur Vidéo TikTok en Ligne Gratuit Sans Filigrane';
-const description = t('site.description') ?? 'TikTokio – Le meilleur téléchargeur de vidéos TikTok en ligne gratuit sans filigrane pour des téléchargements illimités. Téléchargez des vidéos TikTok via lien en HD.';
-const keywords = t('site.keywords') ?? 'TikTokio, téléchargeur vidéo TikTok en ligne, télécharger vidéo TikTok, téléchargements TikTok illimités, téléchargeur TikTok gratuit, enregistrer vidéos TikTok, TikTok downloader online';
-const image = 'meta/opengraph.webp';
-const variant = 'TikTokio';
-
-// Determine text direction based on language (add RTL languages as needed)
-const dir = ['vi', 'ar', 'he', 'fa', 'ur'].includes(lang) ? 'rtl' : 'ltr';
 ---
 
-<Layout title={title} description={description} keywords={keywords} image={image} favicon={favicon} variant={variant} dir={dir}>
-  <Hero />
-  <Container>
-    <Features />
-    <Faq />
-  </Container>
+<Layout dir={lang === 'fr' ? 'ltr' : 'ltr'}>
+<Hero />
+	<Container>
+		
+		<Features />
+		<Faq />
+	</Container>
 </Layout>
