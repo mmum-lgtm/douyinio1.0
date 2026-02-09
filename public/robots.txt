@@ -15,8 +15,11 @@ Allow: /musically-down$
 Allow: /musically-down/$
 Allow: /savetik-downloader-download-tiktok-videos-without-watermark$
 Allow: /savetik-downloader-download-tiktok-videos-without-watermark/$
+Allow: /blog$
+Allow: /blog/$
 Allow: /blog/how-to-save-tiktok-videos-without-watermark$
 Allow: /blog/how-to-save-tiktok-videos-without-watermark/$
+
 
 # Disallow everything else
 Disallow: /
