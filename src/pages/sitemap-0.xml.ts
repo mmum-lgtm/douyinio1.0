@@ -3,13 +3,13 @@ import type { APIRoute } from 'astro';
 
 export const GET: APIRoute = async () => {
   const pages = [
-    { url: 'https://tiktokiotestv.vercel.app/', changefreq: 'daily', priority: 1.0 },
-    { url: 'https://tiktokiotestv.vercel.app/about/', changefreq: 'yearly', priority: 0.5 },
-    { url: 'https://tiktokiotestv.vercel.app/blog/how-to-save-tiktok-videos-without-watermark/', changefreq: 'monthly', priority: 0.8 },
-    { url: 'https://tiktokiotestv.vercel.app/contact/', changefreq: 'yearly', priority: 0.5 },
-    { url: 'https://tiktokiotestv.vercel.app/privacy-policy/', changefreq: 'yearly', priority: 0.3 },
-    { url: 'https://tiktokiotestv.vercel.app/savetik-downloader-download-tiktok-videos-without-watermark/', changefreq: 'weekly', priority: 0.9 },
-    { url: 'https://tiktokiotestv.vercel.app/musically-down/', changefreq: 'weekly', priority: 0.9 },
+    { url: 'https://tiktokio.cam/', changefreq: 'daily', priority: 1.0 },
+    { url: 'https://tiktokio.cam/about/', changefreq: 'yearly', priority: 0.5 },
+    { url: 'https://tiktokio.cam/blog/how-to-save-tiktok-videos-without-watermark/', changefreq: 'monthly', priority: 0.8 },
+    { url: 'https://tiktokio.cam/contact/', changefreq: 'yearly', priority: 0.5 },
+    { url: 'https://tiktokio.cam/privacy-policy/', changefreq: 'yearly', priority: 0.3 },
+    { url: 'https://tiktokio.cam/savetik-downloader-download-tiktok-videos-without-watermark/', changefreq: 'weekly', priority: 0.9 },
+    { url: 'https://tiktokio.cam/musically-down/', changefreq: 'weekly', priority: 0.9 },
   ];
 
   const lastmod = new Date().toISOString();

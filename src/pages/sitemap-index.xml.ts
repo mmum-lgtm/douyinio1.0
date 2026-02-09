@@ -7,7 +7,7 @@ export const GET: APIRoute = async () => {
   const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://tiktokiotestv.vercel.app/sitemap-0.xml</loc>
+    <loc>https://tiktokio.cam/sitemap-0.xml</loc>
     <lastmod>${lastmod}</lastmod>
   </sitemap>
 </sitemapindex>`;
