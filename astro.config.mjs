@@ -12,7 +12,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   output: 'server',
-  site: 'https://tiktokiotestv.vercel.app',
+  site: 'https://tiktokio.cam',
   adapter: vercel({
     webAnalytics: {
       enabled: true,
