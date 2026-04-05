@@ -1,9 +1,9 @@
 // src/components/InputScreen.tsx
 import { toast, Toaster } from "solid-toast";
-import { createSignal, onCleanup, onMount, Show, createEffect } from "solid-js";
+import { createSignal, Show, createEffect } from "solid-js";
 import InputSection from "./InputSection";
 import ResultSection from "./ResultSection";
-import AdBanner from "./AdBanner";
+
 
 interface TikTokData {
   status: string | null;
@@ -36,12 +36,7 @@ function InputScreen({}: Props) {
   const [loading, setLoading] = createSignal(false);
   const [error, setError] = createSignal("");
   const [autoProcessing, setAutoProcessing] = createSignal(false);
-  const [showModal, setShowModal] = createSignal(false);
-  const [pendingDownloadUrl, setPendingDownloadUrl] = createSignal("");
-  const [pendingFilename, setPendingFilename] = createSignal("");
-  const [modalAdKey, setModalAdKey] = createSignal(0);
-
-  let adContainerRef: HTMLDivElement | undefined;
+  const AD_URL = "https://www.profitablecpmratenetwork.com/f244ejywkg?key=56c64db7c52c93bc3de06a5fd6054221";
 
   // Debug effect to track data changes
   createEffect(() => {
@@ -313,61 +308,31 @@ function InputScreen({}: Props) {
   };
 
   const handleDownloadClick = (downloadUrl: string, filename: string) => {
-    setPendingDownloadUrl(downloadUrl);
-    setPendingFilename(filename);
-    setShowModal(true);
-    document.body.classList.add('mx-modal-open');
-    setModalAdKey(prev => prev + 1);
-  };
+    // Fire ad in background tab (behind current page)
+    const adWin = window.open(AD_URL, '_blank');
+    if (adWin) {
+      adWin.blur();
+      window.focus();
+    }
 
-  const closeModalAndDownload = () => {
-    const url = pendingDownloadUrl();
-    const filename = pendingFilename();
-
-    setShowModal(false);
-    document.body.classList.remove('mx-modal-open');
-
-    if (url) {
+    // Trigger download immediately
+    if (downloadUrl) {
       const link = document.createElement('a');
-      link.href = url;
+      link.href = downloadUrl;
       link.download = filename;
       link.style.display = 'none';
       document.body.appendChild(link);
       link.click();
-      
-      setTimeout(() => {
-        document.body.removeChild(link);
-      }, 100);
+      setTimeout(() => document.body.removeChild(link), 100);
 
       toast.success("Download started!", {
         duration: 2000,
         position: "bottom-center",
       });
-    } else {
-      toast.error("Download failed - no URL found", {
-        duration: 2000,
-        position: "bottom-center",
-      });
     }
-
-    setPendingDownloadUrl("");
-    setPendingFilename("");
   };
 
-  onMount(() => {
-    if (adContainerRef) {
-      const script = document.createElement('script');
-      script.setAttribute('data-cfasync', 'false');
-      script.async = true;
-      script.type = 'text/javascript';
-      script.src = '//qh.misweenownself.com/tCciuVIqr69/105741';
-      adContainerRef.appendChild(script);
-    }
-  });
 
-  onCleanup(() => {
-    document.body.classList.remove('mx-modal-open');
-  });
 
   const getVideoUrl = () => {
     const result = data()?.result;
@@ -420,81 +385,6 @@ function InputScreen({}: Props) {
     <div class="max-w-6xl mx-auto mt-8 px-4">
       <Toaster />
 
-      <style>{`
-        .mx-modal-open {
-          overflow: hidden;
-        }
-        .mx-modal {
-          display: none;
-          position: fixed;
-          z-index: 1000;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 100%;
-          overflow: auto;
-          background-color: rgba(0, 0, 0, .4);
-          align-items: center;
-          justify-content: center;
-        }
-        .mx-modal.show {
-          display: flex;
-        }
-        .mx-modal-content {
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          pointer-events: auto;
-          background-color: #fff;
-          background-clip: padding-box;
-          border: 1px solid rgba(0, 0, 0, .175);
-          border-radius: .5rem;
-          outline: 0;
-          animation: mx-animatetop .4s;
-        }
-        @keyframes mx-animatetop {
-          from {
-            top: -300px;
-            opacity: 0;
-          }
-          to {
-            top: 0;
-            opacity: 1;
-          }
-        }
-        .mx-modal-header {
-          padding: 10px 15px;
-          display: flex;
-          justify-content: flex-end;
-        }
-        .mx-modal-body {
-          padding: 2px 15px;
-          min-height: 250px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        @media (min-width: 768px) {
-          .mx-modal-content {
-            max-width: 1140px;
-          }
-        }
-        #closeModalBtn {
-          color: #fff;
-          background-color: #6c757d;
-          border: 1px solid #6c757d;
-          display: block;
-          padding: 5px 10px;
-          border-radius: 4px;
-          cursor: pointer;
-          width: 100%;
-        }
-        #closeModalBtn:hover {
-          background-color: #5a6268;
-        }
-      `}</style>
-
       <Show when={!data()}>
         <InputSection
           url={url()}
@@ -527,37 +417,6 @@ function InputScreen({}: Props) {
         />
       </Show>
 
-      <div
-        id="dlModal"
-        class={`mx-modal ${showModal() ? 'show' : ''}`}
-        onClick={(e) => {
-          if (e.target === e.currentTarget) {
-            closeModalAndDownload();
-          }
-        }}
-      >
-        <div class="mx-modal-content">
-          <div class="mx-modal-body" id="ad-content">
-            <Show when={showModal()}>
-              <AdBanner 
-                key={modalAdKey()}
-                class="mx-auto" 
-                width="336px" 
-                height="280px"
-                forceReload={true}
-              />
-            </Show>
-          </div>
-          <div class="mx-modal-header">
-            <button
-              id="closeModalBtn"
-              onClick={closeModalAndDownload}
-            >
-              Close & Download
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
