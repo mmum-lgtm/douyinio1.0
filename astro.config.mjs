@@ -13,32 +13,49 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   output: 'server',
   site: 'https://tiktokio.cam',
+
   adapter: vercel({
     webAnalytics: { enabled: true },
     speedInsights: { enabled: true },
     imageService: true,
   }),
+
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'it', 'vi', 'ar', 'fr', 'de', 'es', 'hi', 'id', 'ru', 'pt', 'ko', 'tl', 'nl', 'ms', 'tr'],
-    routing: { prefixDefaultLocale: false },
+    locales: [
+      'en',
+      'ar',
+      'de',
+      'es',
+      'fr',
+      'hi',
+      'id',
+      'it',
+      'ko',
+      'ms',
+      'nl',
+      'pt',
+      'ru',
+      'tl',
+      'tr',
+      'vi',
+    ],
+    routing: {
+      prefixDefaultLocale: false, // English pages at root, other languages prefixed
+    },
   },
+
   trailingSlash: 'always',
 
   redirects: {
-    // Existing redirects
+    // Fix duplicate route warnings
     '/musically-down': '/musical-down-tiktok-downloader/',
     '/musically-down/': '/musical-down-tiktok-downloader/',
     '/savetik-downloader-download-tiktok-videos-without-watermark': '/savetik-download-tiktok-video-without-watermark-free/',
     '/savetik-downloader-download-tiktok-videos-without-watermark/': '/savetik-download-tiktok-video-without-watermark-free/',
 
-    // NEW redirects to kill 404s and double language prefixes
-    '/4/': '/404',
-    '/5/': '/404',
-    '/qhqzf': '/404',
-    '/ar/ar/*': '/ar/$1',
-    '/hi/hi/*': '/hi/$1',
-    '/ru/ru/*': '/ru/$1',
+    // Clean 404 redirects (optional but useful)
+    '/404/': '/404',
     '/it/404/': '/404',
     '/ko/404/': '/404',
     '/ar/404/': '/404',
@@ -54,6 +71,11 @@ export default defineConfig({
     '/tr/404/': '/404',
     '/tl/404/': '/404',
     '/vi/404/': '/404',
+
+    // Removed invalid redirects that were causing the build error:
+    // '/ar/ar/*': '/ar/$1',
+    // '/hi/hi/*': '/hi/$1',
+    // '/ru/ru/*': '/ru/$1',
   },
 
   vite: {
