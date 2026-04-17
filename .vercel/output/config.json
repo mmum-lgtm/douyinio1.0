@@ -1,0 +1,1879 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "^/\\.well-known(?:/.*)?$"
+		},
+		{
+			"src": "^/((?:[^/]+/)*[^/\\.]+)$",
+			"headers": {
+				"Location": "/$1/"
+			},
+			"status": 308
+		},
+		{
+			"src": "^/((?:[^/]+/)*[^/]+\\.\\w+)/$",
+			"headers": {
+				"Location": "/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "^/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/ar/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/de/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/es/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/fr/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/hi/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/id/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/it/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/ko/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/ms/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/musically-down$",
+			"headers": {
+				"Location": "/musical-down-tiktok-downloader/"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/musically-down$",
+			"headers": {
+				"Location": "/musical-down-tiktok-downloader/"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/nl/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/pt/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/ru/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/savetik-downloader-download-tiktok-videos-without-watermark$",
+			"headers": {
+				"Location": "/savetik-download-tiktok-video-without-watermark-free/"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/savetik-downloader-download-tiktok-videos-without-watermark$",
+			"headers": {
+				"Location": "/savetik-download-tiktok-video-without-watermark-free/"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/tl/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/tr/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/vi/404$",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 301
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^/_astro/(.*)$",
+			"headers": {
+				"cache-control": "public, max-age=31536000, immutable"
+			},
+			"continue": true
+		},
+		{
+			"src": "^/_server-islands/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/_image/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/api/tik\\.json/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ar/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/de/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/es/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/fr/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/hi/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/id/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/it/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ko/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ms/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/musically-down/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/musically-down/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/nl/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/pt/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/rss\\.xml/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ru/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/savetik-downloader-download-tiktok-videos-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/savetik-downloader-download-tiktok-videos-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/sitemap-0\\.xml/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/sitemap-index\\.xml/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tl/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/tr/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/404/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/about/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/blog/category/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/blog/tag/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/blog/([^/]+?)/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/blog(?:/(.*?))?/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/contact/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/download-tiktok-video/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/musical-down-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/privacy-policy/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/savefrom-download-from-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/savetik-download-tiktok-video-without-watermark-free/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/savett-tiktok-downloader-save-tiktok-videos\\./$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/terms-of-service/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tikmate-tiktok-downloader-without-watermark-in-hd/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tiktok-photo-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tiktok-thumbnail-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tiktok-video-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tiktoksss-tiktok-downloader-without-watermark/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/tmate-tiktok-downloader/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/ttdownloader-downloader-no-watermark-video-downloader-for-tiktok/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/vi/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/.*$",
+			"dest": "_render",
+			"status": 404
+		}
+	],
+	"images": {
+		"sizes": [
+			640,
+			750,
+			828,
+			1080,
+			1200,
+			1920,
+			2048,
+			3840
+		],
+		"domains": [],
+		"remotePatterns": []
+	}
+}

@@ -1,0 +1,27 @@
+import { c as createAstro, a as createComponent, m as maybeRenderHead, aj as unescapeHTML, b as renderTemplate, r as renderComponent } from './astro/server_CMB_St_3.mjs';
+import 'piccolore';
+import 'clsx';
+import { g as getLangFromUrl, u as useTranslations } from './Layout_DNd50Fmw.mjs';
+
+const $$Astro$1 = createAstro("https://tiktokio.cam");
+const $$Tvdfeatures = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  Astro2.self = $$Tvdfeatures;
+  const safeUrl = Astro2.url || new URL("/", Astro2.site || "http://localhost:4321");
+  const lang = getLangFromUrl(safeUrl);
+  const t = useTranslations(lang);
+  return renderTemplate`${maybeRenderHead()}<div class="relative p-4"> <div class="max-w-screen-xl mx-auto"> <div class="rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal"> <section class="py-8 bg-muted/30"> <div class="container"> <div class="mb-12"> <h2 class="text-3xl md:text-4xl text-center text-gray-800 font-bold mb-4">${unescapeHTML(t("tvd.h2"))}</h2> <p class="text-lg text-muted-foreground mx-auto">${unescapeHTML(t("tvd.text"))}</p> </div> <div class="grid gap-8 md:grid-cols-3"> <div class="relative text-center"> <div class="hidden md:block absolute top-16 left-1/2 w-full h-0.5 bg-gradient-to-r from-sky-400 to-indigo-600"></div> <div class="relative z-10"> <div class="mx-auto h-20 w-20 rounded-2xl bg-blue-100 flex items-center justify-center mb-6 transition-transform hover:scale-105"> <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 15 15"> <path fill="#0089ff" d="M10 4V2.5a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5H4V5.5A1.5 1.5 0 0 1 5.5 4zM5.5 5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5zm7-1A1.5 1.5 0 0 1 14 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 4 12.5V11H2.5A1.5 1.5 0 0 1 1 9.5v-7A1.5 1.5 0 0 1 2.5 1h7A1.5 1.5 0 0 1 11 2.5V4z"></path> </svg> </div> <div class="text-sm font-bold text-blue-600 text-primary mb-2">01</div> <h3 class="font-semibold text-xl mb-2">${unescapeHTML(t("tvd.how1"))}</h3> <p class="text-muted-foreground text-lg max-w-xs mx-auto">${unescapeHTML(t("tvd.how1text"))}</p> </div> </div> <div class="relative text-center"> <div class="hidden md:block absolute top-16 left-1/2 w-full h-0.5 bg-gradient-to-r from-sky-400 to-indigo-600"></div> <div class="relative z-10"> <div class="mx-auto h-20 w-20 rounded-2xl bg-blue-100 flex items-center justify-center mb-6 transition-transform hover:scale-105"> <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24"><g fill="none" stroke="#0089ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"> <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path> <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></g> </svg> </div> <div class="text-sm font-bold text-blue-600 text-primary mb-2">02</div> <h3 class="font-semibold text-xl mb-2">${unescapeHTML(t("tvd.how2"))}</h3> <p class="text-muted-foreground text-lg max-w-xs mx-auto">${unescapeHTML(t("tvd.how2text"))}</p> </div> </div> <div class="relative text-center"> <div class="relative z-10"> <div class="mx-auto h-20 w-20 rounded-2xl bg-blue-100 flex items-center justify-center mb-6 transition-transform hover:scale-105"> <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 256 256"> <path fill="#0089ff" d="M71.51 88.49a12 12 0 0 1 17-17L116 99V24a12 12 0 0 1 24 0v75l27.51-27.52a12 12 0 0 1 17 17l-48 48a12 12 0 0 1-17 0ZM224 116h-36a12 12 0 0 0 0 24h32v56H36v-56h32a12 12 0 0 0 0-24H32a20 20 0 0 0-20 20v64a20 20 0 0 0 20 20h192a20 20 0 0 0 20-20v-64a20 20 0 0 0-20-20m-20 52a16 16 0 1 0-16 16a16 16 0 0 0 16-16"></path> </svg> </div> <div class="text-sm font-bold text-blue-600 text-primary mb-2">03</div> <h3 class="font-semibold text-xl mb-2">${unescapeHTML(t("tvd.how3"))}</h3> <p class="text-muted-foreground text-lg max-w-xs mx-auto">${unescapeHTML(t("tvd.how3text"))}</p> </div> </div> </div> </div> </section> </div> </div> </div> <!--Sention 1 End -->`;
+}, "C:/Users/Omar/Downloads/Compressed/tiktokio3.7/src/components/tvdfeatures.astro", void 0);
+
+const $$Astro = createAstro("https://tiktokio.cam");
+const $$TvdHero = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$TvdHero;
+  const safeUrl = Astro2.url || new URL("/", Astro2.site || "http://localhost:4321");
+  const lang = getLangFromUrl(safeUrl);
+  const t = useTranslations(lang);
+  const { dynamic = false } = Astro2.props;
+  return renderTemplate`${maybeRenderHead()}<div class="relative isolate pt-14 bg-gradient-to-r from-blue-800 to-indigo-900"> <div class="sm:pt-10"> <div class="mx-auto max-w-7xl"> <div class="mx-auto max-w-6xl text-center"> <h1 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">${t("tvd.hero.title")}</h1> <p class="mt-2 text-lg leading-8 text-gray-100">${t("tvd.hero.subtitle")}</p> ${renderComponent($$result, "InputScreen", null, { "client:only": "solid-js", "client:component-hydration": "only", "client:component-path": "C:/Users/Omar/Downloads/Compressed/tiktokio3.7/src/components/InputScreen", "client:component-export": "default" })} </div> </div> </div> </div>`;
+}, "C:/Users/Omar/Downloads/Compressed/tiktokio3.7/src/components/tvd-hero.astro", void 0);
+
+export { $$TvdHero as $, $$Tvdfeatures as a };
