@@ -33,7 +33,7 @@ export default function AdBanner(props: AdBannerProps) {
     script.setAttribute('async', 'async');
     script.setAttribute('data-cfasync', 'false');
     script.type = 'text/javascript';
-    script.src = '//pl15018358.effectivegatecpm.com/531da32ec3fcb205a3490d7e5bc1f538/invoke.js';
+    script.src = '//pl15018358.profitablecpmratenetwork.com/531da32ec3fcb205a3490d7e5bc1f538/invoke.js';
 
     // Store reference for cleanup
     scriptElement = script;
