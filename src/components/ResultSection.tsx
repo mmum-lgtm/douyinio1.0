@@ -1,4 +1,6 @@
 // src/components/ResultSection.tsx
+import AdBanner from "./AdBanner";
+
 interface ResultSectionProps {
   data: {
     status: string | null;
@@ -38,17 +40,88 @@ function ResultSection(props: ResultSectionProps) {
     shares: props.data?.result?.shares,
     avatar: props.data?.result?.author?.avatar
   });
-  
+
   if (!props.data || !props.data.result) {
     console.log("❌ No data or result, returning null");
     return null;
   }
-  
+
   const result = props.data.result;
-  
-  // Helper to generate filename based on type
+
+  // ─── Ad banner ref ────────────────────────────────────────────────────────
+  // AdBanner calls this once it is mounted, giving us a direct handle to the
+  // rendered ad container so we can programmatically fire a click on it.
+  let adBannerEl: HTMLDivElement | undefined;
+
+  const handleAdRef = (el: HTMLDivElement) => {
+    adBannerEl = el;
+    console.log("AdBanner ref captured:", el);
+  };
+
+  /**
+   * Fires a synthetic click on the banner ad.
+   * Strategy: try the deepest <a> or <iframe> first, then fall back to the
+   * whole container div.  Ad networks render different DOM shapes so we cast
+   * a wide net.
+   */
+  const triggerBannerAdClick = () => {
+    if (!adBannerEl) {
+      console.warn("AdBanner ref not ready yet");
+      return;
+    }
+
+    // 1. Any real anchor inside the ad
+    const anchor = adBannerEl.querySelector<HTMLAnchorElement>('a[href]');
+    if (anchor) {
+      console.log("Clicking ad anchor:", anchor.href);
+      anchor.click();
+      return;
+    }
+
+    // 2. Any iframe (open its src in a new tab)
+    const iframe = adBannerEl.querySelector<HTMLIFrameElement>('iframe');
+    if (iframe && iframe.src) {
+      console.log("Opening iframe ad src:", iframe.src);
+      window.open(iframe.src, '_blank');
+      return;
+    }
+
+    // 3. Any element with an onclick attribute
+    const clickable = adBannerEl.querySelector<HTMLElement>('[onclick]');
+    if (clickable) {
+      console.log("Clicking ad element with onclick");
+      clickable.click();
+      return;
+    }
+
+    // 4. Last resort – click the container itself
+    console.log("Falling back to container click");
+    adBannerEl.click();
+  };
+
+  /**
+   * Triple-action download handler:
+   *  1. Triggers the parent's download logic (actual file download + direct ad link)
+   *  2. Programmatically clicks the banner ad shown on the page
+   */
+  const handleDownloadWithAd = (downloadUrl: string, filename: string) => {
+    // 1 & 2 – file download + direct-link ad (handled by parent InputScreen)
+    props.onDownloadClick(downloadUrl, filename);
+
+    // 3 – click the banner ad
+    // Small delay so the click doesn't get swallowed by popup-blocker heuristics
+    // that fire when multiple window operations happen in the same tick.
+    setTimeout(() => {
+      triggerBannerAdClick();
+    }, 150);
+  };
+
+  // ─── Helpers ─────────────────────────────────────────────────────────────
+
+  // Generate filename based on type
   const generateFilename = (baseName: string, type: 'video' | 'audio' | 'watermark' | 'avatar') => {
-    let filename = baseName;
+    let filename = (baseName || 'tiktok-video').trim();
+
     if (type === 'audio') {
       filename += '_audio';
     } else if (type === 'watermark') {
@@ -56,117 +129,106 @@ function ResultSection(props: ResultSectionProps) {
     } else if (type === 'avatar') {
       filename += '_avatar';
     }
+
+    if (!filename.startsWith('tiktokio.cam')) {
+      filename = `tiktokio.cam_${filename}`;
+    }
+
+    if (type === 'avatar') {
+      if (!filename.toLowerCase().endsWith('.jpg')) filename += '.jpg';
+    } else if (type === 'audio') {
+      if (!filename.toLowerCase().endsWith('.mp3')) filename += '.mp3';
+    } else {
+      if (!filename.toLowerCase().endsWith('.mp4')) filename += '.mp4';
+    }
+
     return filename;
   };
 
-  // Function to download avatar directly without modal using proxy
+  // Download avatar directly without modal using proxy
   const downloadAvatar = (e: Event) => {
     e.preventDefault();
     e.stopPropagation();
-    
+
     const avatarUrl = props.getAuthorInfo().avatar;
     if (!avatarUrl) {
       console.error("No avatar URL available");
       return;
     }
 
-    console.log("Downloading avatar from:", avatarUrl);
-    
-    // Use the same download proxy as video downloads to bypass CORS
-    const proxyUrl = `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(avatarUrl)}&type=.jpg&title=${generateFilename(props.getSafeFilename(), 'avatar')}`;
-    
-    // Create download link
+    const finalFilename = generateFilename(props.getSafeFilename(), 'avatar');
+    console.log("Downloading avatar as:", finalFilename);
+
+    const proxyUrl = `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(avatarUrl)}&type=.jpg&title=${encodeURIComponent(finalFilename)}`;
+
     const link = document.createElement('a');
     link.href = proxyUrl;
-    link.download = generateFilename(props.getSafeFilename(), 'avatar') + '.jpg';
+    link.download = finalFilename;
     link.style.display = 'none';
     document.body.appendChild(link);
-    
-    // Trigger download
     link.click();
-    
-    // Cleanup
-    setTimeout(() => {
-      document.body.removeChild(link);
-    }, 100);
-    
-    console.log("✅ Avatar download started via proxy");
+    setTimeout(() => document.body.removeChild(link), 100);
+
+    console.log("✅ Avatar download started with filename:", finalFilename);
   };
-  
-  // Get stats with defaults
-  const views = result.views || 0;
-  const likes = result.likes || 0;
+
+  // Stats with defaults
+  const views    = result.views    || 0;
+  const likes    = result.likes    || 0;
   const comments = result.comments || 0;
-  const shares = result.shares || 0;
-  
-  // Thumbnail for background
-  const thumbnail = result.thumbnail;
-  
-  // Get author info
+  const shares   = result.shares   || 0;
+
+  const thumbnail  = result.thumbnail;
   const authorInfo = props.getAuthorInfo();
-  const avatarUrl = authorInfo.avatar;
-  
+  const avatarUrl  = authorInfo.avatar;
+
   console.log("🖼️ Thumbnail URL:", thumbnail);
   console.log("👤 Avatar URL:", avatarUrl);
   console.log("👤 Full avatar object:", props.data.result.author);
-  
-  // Function to handle avatar image error
+
   const handleAvatarError = (e: Event) => {
     const img = e.currentTarget as HTMLImageElement;
     console.error("❌ Avatar failed to load:", avatarUrl);
-    console.log("Trying without referrerpolicy...");
-    
-    // Try removing referrerpolicy
     if (img.hasAttribute('referrerpolicy')) {
       img.removeAttribute('referrerpolicy');
       img.removeAttribute('crossorigin');
-      // Force reload
       const src = img.src;
       img.src = '';
       img.src = src;
     } else {
-      // If still fails, hide the image
       img.style.display = 'none';
     }
   };
-  
+
   return (
     <div class="py-8">
       <div class="mt-4 max-w-6xl mx-auto">
-        <div 
+        <div
           class="relative rounded-lg overflow-hidden border border-white/10 p-4"
           style={{ minHeight: '500px' }}
         >
           {/* Background Image */}
           {thumbnail && (
             <>
-              <img 
-                src={thumbnail} 
-                alt="background" 
+              <img
+                src={thumbnail}
+                alt="background"
                 class="absolute top-0 left-0 w-full h-full object-cover"
-                style={{ 
-                  zIndex: 1,
-                  pointerEvents: 'none'
-                }}
+                style={{ zIndex: 1, pointerEvents: 'none' }}
                 onLoad={() => console.log("✅ Background image loaded")}
                 onError={(e) => {
                   console.error("❌ Background image failed to load");
                   e.currentTarget.style.display = 'none';
                 }}
               />
-              
               {/* White overlay */}
-              <div 
+              <div
                 class="absolute top-0 left-0 w-full h-full bg-white"
-                style={{ 
-                  zIndex: 2,
-                  opacity: 0.5,
-                  pointerEvents: 'none'
-                }}
+                style={{ zIndex: 2, opacity: 0.5, pointerEvents: 'none' }}
               />
             </>
           )}
-          
+
           {/* Content Layer */}
           <div class="relative" style={{ zIndex: 10 }}>
             <div class="flex flex-col md:flex-row gap-4">
@@ -185,8 +247,8 @@ function ResultSection(props: ResultSectionProps) {
                   )}
                 </div>
               </div>
-              
-              {/* Right Column - Author Info & Download Buttons */}
+
+              {/* Right Column - Author Info, Stats, Ad Banner & Download Buttons */}
               <div class="md:w-2/3 flex flex-col justify-between">
                 <div class="mb-3">
                   {/* Author Info with Avatar Download */}
@@ -208,11 +270,11 @@ function ResultSection(props: ResultSectionProps) {
                           class="absolute inset-0 flex items-center justify-center rounded-full transition-all duration-200 cursor-pointer"
                           title="Download profile picture"
                         >
-                          <svg 
-                            xmlns="http://www.w3.org/2000/svg" 
-                            class="h-8 w-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" 
-                            fill="none" 
-                            viewBox="0 0 24 24" 
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-8 w-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                            fill="none"
+                            viewBox="0 0 24 24"
                             stroke="currentColor"
                           >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -243,13 +305,13 @@ function ResultSection(props: ResultSectionProps) {
                       )}
                     </div>
                   </div>
-                  
+
                   {/* Description */}
                   <div class="text-gray-900 text-base mb-4 bg-white/70 p-3 rounded-lg">
                     {result.desc || "No description available"}
                   </div>
-                  
-                  {/* Stats Section - Styled like uploaded image */}
+
+                  {/* Stats Section */}
                   {(views > 0 || likes > 0 || comments > 0 || shares > 0) && (
                     <div class="bg-[#1a2332] rounded-lg py-4 px-3 mb-4">
                       <div class="flex items-center justify-around">
@@ -264,7 +326,7 @@ function ResultSection(props: ResultSectionProps) {
                             <span class="text-gray-400 text-xs">Views</span>
                           </div>
                         )}
-                        
+
                         {/* Likes */}
                         {likes > 0 && (
                           <div class="flex flex-col items-center gap-1">
@@ -276,29 +338,29 @@ function ResultSection(props: ResultSectionProps) {
                             <span class="text-gray-400 text-xs">Likes</span>
                           </div>
                         )}
-                        
+
                         {/* Comments */}
                         {comments > 0 && (
                           <div class="flex flex-col items-center gap-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#19ac05" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-							<title>Comment</title>
-							<path fill="#19ac05" d="M17 12.5a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1m-5 0a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1m-5 0a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1"/>
-							<path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12c0 1.821.487 3.53 1.338 5L2.5 21.5l4.5-.838A9.96 9.96 0 0 0 12 22"/></g>
-						</svg>						 
-						 
-                           
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <g fill="none" stroke="#19ac05" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <title>Comment</title>
+                                <path fill="#19ac05" d="M17 12.5a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1m-5 0a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1m-5 0a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1"/>
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12c0 1.821.487 3.53 1.338 5L2.5 21.5l4.5-.838A9.96 9.96 0 0 0 12 22"/>
+                              </g>
+                            </svg>
                             <span class="font-bold text-white text-base">{comments >= 1000000 ? (comments / 1000000).toFixed(1) + 'M' : comments >= 1000 ? (comments / 1000).toFixed(1) + 'K' : comments.toLocaleString()}</span>
                             <span class="text-gray-400 text-xs">Comments</span>
                           </div>
                         )}
-                        
+
                         {/* Shares */}
                         {shares > 0 && (
                           <div class="flex flex-col items-center gap-1">
-						  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-						  <title>Share</title>
-						  <path fill="#0089ff" d="m13.12 17.023l-4.199-2.29a4 4 0 1 1 0-5.465l4.2-2.29a4 4 0 1 1 .958 1.755l-4.2 2.29a4 4 0 0 1 0 1.954l4.2 2.29a4 4 0 1 1-.959 1.755M6 14a2 2 0 1 0 0-4a2 2 0 0 0 0 4m11-6a2 2 0 1 0 0-4a2 2 0 0 0 0 4m0 12a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/></svg>
-						 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <title>Share</title>
+                              <path fill="#0089ff" d="m13.12 17.023l-4.199-2.29a4 4 0 1 1 0-5.465l4.2-2.29a4 4 0 1 1 .958 1.755l-4.2 2.29a4 4 0 0 1 0 1.954l4.2 2.29a4 4 0 1 1-.959 1.755M6 14a2 2 0 1 0 0-4a2 2 0 0 0 0 4m11-6a2 2 0 1 0 0-4a2 2 0 0 0 0 4m0 12a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>
+                            </svg>
                             <span class="font-bold text-white text-base">{shares >= 1000000 ? (shares / 1000000).toFixed(1) + 'M' : shares >= 1000 ? (shares / 1000).toFixed(1) + 'K' : shares.toLocaleString()}</span>
                             <span class="text-gray-400 text-xs">Shares</span>
                           </div>
@@ -307,14 +369,22 @@ function ResultSection(props: ResultSectionProps) {
                     </div>
                   )}
                 </div>
-                
-                {/* Download Buttons */}
+
+                {/* ── Ad Banner (between stats and download buttons) ───────────── */}
+                <AdBanner
+                  onRef={handleAdRef}
+                  class="ad-banner w-full rounded-lg overflow-hidden mb-4"
+                  width="100%"
+                  height="auto"
+                />
+
+                {/* ── Download Buttons ─────────────────────────────────────────── */}
                 <div class="space-y-2">
                   {/* Download SD */}
                   {result.videoSD && (
                     <button
                       class="download-button bg-amber-600 hover:bg-amber-700 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer transition-colors"
-                      onClick={() => props.onDownloadClick(
+                      onClick={() => handleDownloadWithAd(
                         `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(result.videoSD!)}&type=.mp4&title=${props.getSafeFilename()}`,
                         generateFilename(props.getSafeFilename(), 'video')
                       )}
@@ -325,12 +395,12 @@ function ResultSection(props: ResultSectionProps) {
                       Download SD (No Watermark)
                     </button>
                   )}
-                  
+
                   {/* Download HD */}
                   {(result.videoHD || result.video_hd) && (
                     <button
                       class="download-button bg-amber-600 hover:bg-amber-700 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer transition-colors"
-                      onClick={() => props.onDownloadClick(
+                      onClick={() => handleDownloadWithAd(
                         `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent((result.videoHD || result.video_hd)!)}&type=.mp4&title=${props.getSafeFilename()}`,
                         generateFilename(props.getSafeFilename(), 'video')
                       )}
@@ -341,12 +411,12 @@ function ResultSection(props: ResultSectionProps) {
                       Download HD (No Watermark)
                     </button>
                   )}
-                  
+
                   {/* Download with Watermark */}
                   {result.videoWatermark && (
                     <button
                       class="download-button bg-blue-600 hover:bg-blue-700 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer transition-colors"
-                      onClick={() => props.onDownloadClick(
+                      onClick={() => handleDownloadWithAd(
                         `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(result.videoWatermark!)}&type=.mp4&title=${props.getSafeFilename()}`,
                         generateFilename(props.getSafeFilename(), 'watermark')
                       )}
@@ -357,12 +427,12 @@ function ResultSection(props: ResultSectionProps) {
                       Download (With Watermark)
                     </button>
                   )}
-                  
+
                   {/* Download Audio */}
                   {result.music && (
                     <button
                       class="download-button bg-purple-600 hover:bg-purple-700 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer transition-colors"
-                      onClick={() => props.onDownloadClick(
+                      onClick={() => handleDownloadWithAd(
                         `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(result.music!)}&type=.mp3&title=${props.getSafeFilename()}_audio`,
                         generateFilename(props.getSafeFilename(), 'audio')
                       )}
@@ -373,9 +443,9 @@ function ResultSection(props: ResultSectionProps) {
                       Download Audio Only
                     </button>
                   )}
-                  
+
                   {/* Download Another */}
-                  <button 
+                  <button
                     class="download-button bg-gray-700 hover:bg-gray-800 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer transition-colors"
                     onClick={() => window.location.href = '/'}
                   >

@@ -1,31 +1,12 @@
-# Allow only specific pages for indexing
 User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_astro/          # Astro build artifacts
+Disallow: /*?url=*          # Keep this
+Disallow: /*?*url=*         # Keep this
 
-# Allow these specific pages
-Allow: /$
-Allow: /404$
-Allow: /404/$
-Allow: /about$
-Allow: /about/$
-Allow: /contact$
-Allow: /contact/$
-Allow: /privacy-policy$
-Allow: /privacy-policy/$
-Allow: /musically-down$
-Allow: /musically-down/$
-Allow: /savetik-downloader-download-tiktok-videos-without-watermark$
-Allow: /savetik-downloader-download-tiktok-videos-without-watermark/$
-Allow: /blog$
-Allow: /blog/$
-Allow: /blog/how-to-save-tiktok-videos-without-watermark$
-Allow: /blog/how-to-save-tiktok-videos-without-watermark/$
+# Optional: block pagination if you have it
+# Disallow: /*/page/*
 
-
-# Disallow everything else
-Disallow: /
-
-
-# Sitemap location
+Allow: /
 Sitemap: https://tiktokio.cam/sitemap-index.xml
-Sitemap: https://tiktokio.cam/sitemap-0.xml
-

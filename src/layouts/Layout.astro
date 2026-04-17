@@ -1,6 +1,4 @@
 ---
-// src/layouts/Layout.astro
-// Updated version: Complete & correct Open Graph tags → Ahrefs warning disappears
 import '../layouts/index.css';
 
 import Navbar from '../components/navbar/navbar.astro';
@@ -21,21 +19,22 @@ try {
   t = (key: string) => key;
 }
 
-// Props with safe fallbacks
 const {
   title = t('site.title') ?? 'TikTokio - Free TikTok Video Downloader Online No Watermark',
   description = t('site.description') ?? 'Download TikTok videos in HD instantly 100% free, no app, no registration!',
   keywords = t('site.keywords') ?? 'tiktok downloader, video downloader, no watermark, download tiktok',
-  // You can override per page if needed, otherwise defaults to the big OG image
-  image = 'meta/opengraph.webp', // ← recommended: put it in public/meta/ so it’s served from root
+  image = 'meta/opengraph.webp',
   ogType = 'website',
   variant = 'default',
 } = Astro.props;
 
-// ─── Build absolute URLs safely ──────────────────────────────────────────────
 const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
 const canonicalUrl = Astro.url.href;
-const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`; // removes leading slash if any
+const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`;
+
+// Prepare hreflang data in frontmatter (safest way)
+const locales = ['en', 'it', 'vi', 'ar', 'fr', 'de', 'es', 'hi', 'id', 'ru', 'pt', 'ko', 'tl', 'nl', 'ms', 'tr'];
+const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|ru|pt|ko|tl|nl|ms|tr)\//, '/');
 ---
 
 <!doctype html>
@@ -54,19 +53,32 @@ const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`; // removes leading
     <!-- Canonical -->
     <link rel="canonical" href={canonicalUrl} />
 
-    <!-- Open Graph / Facebook – NOW COMPLETE -->
+    <!-- ==================== HREFLANG (FIXES ALL DUPLICATE ISSUES) ==================== -->
+    {locales.map((l) => {
+      const href = l === 'en' 
+        ? `${siteUrl}${pathWithoutLang}` 
+        : `${siteUrl}/${l}${pathWithoutLang}`;
+      return <link rel="alternate" hreflang={l} href={href} />;
+    })}
+
+    <!-- x-default -->
+    <link 
+      rel="alternate" 
+      hreflang="x-default" 
+      href={`${siteUrl}${pathWithoutLang}`} 
+    />
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content={ogType} />
-    <meta property="og:url" content={canonicalUrl} />                <!-- CRITICAL -->
-    <meta property="og:site_name" content="TikTokio" />              <!-- Recommended -->
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="TikTokio" />
     <meta property="og:locale" content={lang === 'en' ? 'en_US' : `${lang}_${lang.toUpperCase()}`} />
-    
     <meta property="og:image" content={ogImageUrl} />
     <meta property="og:image:alt" content={title} />
-    <meta property="og:image:width" content="1200" />                 <!-- Use real dimensions -->
-    <meta property="og:image:height" content="630" />                 <!-- 1.91:1 ratio (Facebook ideal) -->
-    <!-- Optional but nice for some platforms -->
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:type" content="image/webp" />
 
     <!-- Twitter Card -->
@@ -78,31 +90,25 @@ const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`; // removes leading
     <!-- Favicons -->
     <link rel="icon" type="image/ico" href="/fav.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.webp" />
-	
-	
-	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=693b7cfd7d1fcb1f4b611473&product=sop' async='async'></script>
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "w6t54pa57n");
-</script>  
-</head>
+
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=693b7cfd7d1fcb1f4b611473&product=sop' async='async'></script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "w6t54pa57n");
+    </script>
+  </head>
 
   <body class="antialiased">
     <Navbar variant={variant} lang={lang} />
-
     <main class="min-h-[calc(100vh-200px)]">
       <slot name="hero" />
       <slot name="features" />
       <slot />
     </main>
-
     <Footer lang={lang} />
-
-    <!-- PWA service worker only in production -->
-		<script src="/src/pwa.ts"></script>
-
+    <script src="/src/pwa.ts"></script>
   </body>
 </html>
