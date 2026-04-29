@@ -1,0 +1,26 @@
+---
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+
+import DouyinHero from "@components/douyin-hero.astro";
+import Features from "@components/dtvfeatures.astro";
+import Faq from "@components/dtv-faq.astro";
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
+const lang = getLangFromUrl(safeUrl);
+const t = useTranslations(lang);
+---
+
+<Layout
+  title="Douyin Video Downloader – Download Douyin Videos Without Watermark Free"
+  description="Download Douyin videos without watermark for free. Fast, free and easy Douyin video downloader. No app needed – paste the link and download in HD.">
+  <DouyinHero />
+  <div>
+    <Container>
+      <Features />
+      <Faq />
+    </Container>
+  </div>
+</Layout>
